@@ -1,0 +1,442 @@
+===============================================================================
+OPEN MUSIC LICENSE (OML) v1.0
+QUICK REFERENCE GUIDE
+===============================================================================
+
+OVERVIEW
+
+The OML framework provides four simple, practical licenses for modern music 
+creators. All licenses are compatible with using sample libraries like Splice, 
+Loopcloud, etc. in your productions (except OML-F which is fully open source).
+
+===============================================================================
+
+THE FOUR LICENSES
+
+OML-F (FREE/OPEN SOURCE)
+• Completely FREE with no revenue limits
+• Truly open source - modify, sell, redistribute freely
+• Can extract and use stems/samples
+• Only requires attribution and license inclusion
+• Most permissive option for maximum sharing
+
+OML-P (PERSONAL USE)
+• FREE for projects under $1,000/year revenue
+• Requires attribution to creator
+• Can monetize on streaming, YouTube, social media, etc.
+• Works for beats, songs, samples, loops - everything
+• Must upgrade to OML-C when you exceed $1,000
+
+OML-C (COMMERCIAL USE)  
+• For unlimited commercial revenue
+• Required when revenue exceeds $1,000/year
+• Payment structure negotiated between creator and user
+• Options: percentage royalty, flat fee, or hybrid
+• All commercial uses permitted
+
+OML-S (SYNC LICENSE)
+• Specifically for visual media (film, TV, ads, video games, etc.)
+• Flat fee structure based on project scope
+• Covers both master and sync rights in one agreement
+• Specify term, territory, media, and usage details
+• File cue sheets with PROs for performance royalties
+
+===============================================================================
+
+KEY IMPROVEMENTS IN v1.0
+
+SIMPLIFIED STRUCTURE
+• Removed complex legal jargon
+• Focused on practical, real-world usage
+• Clear "can do" and "cannot do" sections
+• Easier to understand and implement
+
+COMPATIBLE WITH SAMPLE LIBRARIES
+• Can use Splice, Loopcloud, etc. in your productions
+• Clear distinction between rights to the finished work vs. underlying samples
+• Respects original sample library licenses
+• No conflict with third-party terms
+
+NO LICENSE IN TITLE REQUIRED
+• License reference just needs to be somewhere accessible
+• Can be in metadata, description, credits, documentation
+• Doesn't clutter titles or interfere with creativity
+• Makes compliance easier
+
+NEGOTIATED PRICING
+• OML-C: negotiate royalty rate or flat fee based on use case
+• OML-S: negotiate sync fee based on project budget and scope
+• No rigid price ranges - flexibility for both parties
+• Real-world approach to compensation
+
+INCLUSIVE FOR ALL MUSIC TYPES
+• Works for beats, songs, instrumentals, samples, loops
+• No separate "beat license" needed
+• OML-P covers everything under the revenue threshold
+• One framework for all music production assets
+• OML-F provides truly open source option for maximum sharing
+
+===============================================================================
+
+WHEN TO USE EACH LICENSE
+
+USE OML-F IF:
+• You want your music to be completely open source
+• You believe in maximum creative freedom and sharing
+• You want others to freely extract, remix, and redistribute your work
+• You don't need revenue from the music itself
+• You want to build a community around your work
+• You support open culture and collaborative creativity
+• You want your music used as widely as possible without barriers
+• Users can do anything - including selling, modifying, and redistributing
+
+USE OML-P IF:
+• You're a creator offering your music/beats for free with attribution
+• Users can monetize but revenue stays under $1,000/year
+• You want to support emerging artists and small creators
+• You want your music accessible while reserving commercial rights
+• Users include hobbyists, students, small YouTubers, indie artists
+
+USE OML-C IF:
+• Your music/beats will be used in projects earning over $1,000/year
+• You want to negotiate compensation for commercial use
+• User needs unlimited commercial rights from the start
+• You want ongoing royalties or upfront flat fee
+• Users include professional artists, labels, brands, businesses
+
+USE OML-S IF:
+• Your music will be synced with visual media
+• User is making film, TV show, advertisement, video game, etc.
+• You want project-specific licensing with defined scope
+• You want to specify exactly how/where music can be used
+• You'll receive PRO performance royalties in addition to sync fee
+
+===============================================================================
+
+USING SPLICE AND SAMPLE LIBRARIES
+
+IMPORTANT: All OML licenses are compatible with using Splice and other sample 
+libraries in your productions.
+
+HOW IT WORKS:
+
+When you create a beat using Splice samples:
+1. You have rights to the beat you created (your original composition)
+2. You can license that beat under OML-P or OML-C
+3. Users get rights to use your beat as a finished work
+4. Users DON'T get rights to extract and redistribute the underlying Splice 
+   samples
+5. This respects both OML and Splice's terms
+
+What users CAN do:
+• Use your beat in their songs/videos/projects
+• Monetize their content using your beat
+• Create derivative works based on your beat
+• Get proper credit and licensing
+
+What users CANNOT do:
+• Extract individual samples from your beat to use separately
+• Redistribute stems or isolated elements as standalone files
+• Sublicense the underlying samples to others
+• Claim the samples as their own
+
+WHY THIS WORKS:
+
+Copyright in music is layered - you own your arrangement and composition even 
+when using licensed samples. You're granting rights to your creative work 
+(the beat as a complete composition), not to the underlying samples.
+
+This is exactly how it works with traditional beat licensing and sample 
+libraries - standard practice in the industry.
+
+===============================================================================
+
+ATTRIBUTION MADE EASY
+
+Attribution doesn't need to be in titles. Just include it somewhere accessible:
+
+AUDIO FILES:
+• Metadata fields: Producer, Composer, Comment
+• Example: Producer: "Radio Tom" + Comment: "Licensed under OML-P"
+
+STREAMING PLATFORMS:
+• Use built-in credits features (Spotify Credits, Apple Music)
+• Track descriptions
+• Example: Add "Radio Tom" to Producer credits
+
+VIDEO CONTENT:
+• Video description
+• End credits (minimum 3 seconds)
+• Example: "Beat by Radio Tom (Licensed under OML-P)"
+
+SOCIAL MEDIA:
+• Post caption or first comment
+• Example: "Music by Radio Tom | OML-P"
+
+WEBSITES/PODCASTS:
+• Credits page or show notes
+• Footer attribution
+• Example: "Music: Radio Tom - Licensed under OML-P"
+
+The key: Make it findable if someone looks for it. It doesn't need to be 
+prominent, just accessible.
+
+===============================================================================
+
+REVENUE THRESHOLD EXPLAINED (OML-P)
+
+What counts toward the $1,000 threshold:
+• Streaming royalties (Spotify, Apple Music, etc.)
+• YouTube ad revenue
+• Song/beat sales
+• Show tickets if your music is performed
+• Sponsorships related to content using the music
+• Crowdfunding (Patreon, Ko-fi, etc.)
+• Any other income from projects using the music
+
+What's included:
+• If you use the music in MULTIPLE projects, add up ALL revenue
+• Rolling 12-month period from first revenue
+• Gross revenue (before expenses)
+
+When you hit $1,000:
+• You have 30 days to contact creator and get OML-C
+• Negotiate payment terms
+• Continue your projects without interruption
+
+===============================================================================
+
+PAYMENT OPTIONS (OML-C)
+
+OPTION A: PERCENTAGE ROYALTY
+• Pay a percentage of your revenue
+• Typical range: 2-10% depending on how much you use the music
+• Quarterly reports and payments
+• Good for ongoing projects with variable income
+
+OPTION B: FLAT FEE  
+• One-time payment for specified use
+• Negotiate based on your project and budget
+• No ongoing reporting required
+• Good for projects with defined scope
+
+OPTION C: HYBRID
+• Upfront payment + reduced ongoing royalty
+• Example: $1,000 upfront + 3% quarterly
+• Combines benefits of both approaches
+• Good for larger projects with ongoing revenue
+
+All rates and amounts are negotiated between you and the creator - no rigid 
+price lists.
+
+===============================================================================
+
+SYNC LICENSING (OML-S)
+
+WHAT'S INCLUDED:
+• Master rights (to use the recording)
+• Sync rights (to use the composition)
+• Complete clearance in one agreement
+• No separate deals needed
+
+SPECIFY YOUR NEEDS:
+• Term: How long (perpetual, 1 year, 5 years, etc.)
+• Territory: Where (worldwide, US only, etc.)
+• Media: What platforms (theatrical, streaming, social, etc.)
+• Usage: How featured (main theme, background, credits, etc.)
+
+PAYMENT:
+• Flat fee negotiated based on project
+• Depends on: budget, scope, prominence, territory, term
+• Separate from PRO performance royalties
+• Usually paid upfront or 50/50 (execution + before first use)
+
+RESPONSIBILITIES:
+• File cue sheets with PROs (ASCAP, BMI, SESAC)
+• Provide proper credits
+• Stay within licensed scope
+• Report usage to creator
+
+===============================================================================
+
+FREQUENTLY ASKED QUESTIONS
+
+Q: What's the difference between OML-F and OML-P?
+A: OML-F is completely open with no revenue limits - truly free and open source. 
+OML-P is free under $1K but requires upgrading to OML-C for commercial use above 
+that threshold. OML-F also allows redistribution of stems/samples, OML-P doesn't.
+
+Q: When should I use OML-F vs OML-P?
+A: Use OML-F if you want maximum openness and don't need revenue from the music. 
+Use OML-P if you want to support small creators for free but get paid when 
+projects become commercially successful.
+
+Q: Can I use beats made with Splice under OML?
+A: Yes! OML v1.0 is specifically designed to work with sample libraries. You 
+license the beat as a finished work, not the underlying samples.
+
+Q: Do I need to put "Licensed under OML-P" in my song title?
+A: No! Just put it somewhere accessible like metadata, description, or credits.
+
+Q: What if I make $999 one year and $200 the next?
+A: The threshold is per 12-month rolling period. If you make $999 in year 1, 
+you're fine. In year 2, it resets - you can make another $1,000 before needing 
+OML-C.
+
+Q: Can I negotiate a lower royalty rate for OML-C?
+A: Yes! All terms are negotiable between creator and user. The framework 
+provides structure, but you agree on specific terms.
+
+Q: What's the difference between OML-C and OML-S?
+A: OML-C is for general commercial music use (releases, streams, performances). 
+OML-S is specifically for synchronizing music with visual media (film, TV, ads, 
+games).
+
+Q: Do I need OML-C AND OML-S?
+A: Depends on use. If you're just releasing music commercially, OML-C is 
+enough. If you're putting music in a film/ad/game, use OML-S. For a music 
+video of your own song, OML-C covers it.
+
+Q: Can I switch between percentage and flat fee later?
+A: Only by mutual written agreement. Once you choose a payment structure and 
+sign the agreement, it stays unless both parties agree to change it.
+
+Q: What if someone violates the license?
+A: License terminates automatically. They must stop using the work. You can 
+seek legal remedies. For attribution violations, they get 15 days to cure.
+
+Q: Can I use OML for sample packs?
+A: Yes! OML-P and OML-C work great for samples, loops, and one-shots. Just be 
+clear about whether you're granting stem access or just the right to use 
+samples in projects.
+
+Q: What about remixes and covers?
+A: Remixes and derivatives are allowed and covered under OML. Covers (re-
+recordings of the composition) aren't addressed - those typically need 
+mechanical licenses.
+
+===============================================================================
+
+GETTING STARTED
+
+FOR CREATORS (LICENSING YOUR MUSIC):
+
+1. Choose which license(s) to offer
+   - OML-P for free use under $1K (most accessible)
+   - OML-C for commercial use (negotiate terms)
+   - OML-S for sync (project-specific)
+
+2. Prepare your music
+   - Include license file with downloads
+   - Add license info to metadata
+   - Provide contact info for OML-C/OML-S inquiries
+
+3. Set your terms
+   - For OML-C: decide if you prefer royalties, flat fees, or hybrid
+   - For OML-S: determine your sync rates based on project type
+   - Be open to negotiation
+
+4. Promote your music
+   - Mention OML licensing in descriptions
+   - Make it easy for users to understand terms
+   - Build community around your work
+
+FOR USERS (USING LICENSED MUSIC):
+
+1. Check the license
+   - Look for OML-P, OML-C, or OML-S designation
+   - Read the terms in the license file
+   - Understand what's permitted
+
+2. Provide attribution
+   - Add creator credits in accessible location
+   - Include license reference somewhere
+   - Follow examples in license documentation
+
+3. Track your revenue (for OML-P)
+   - Monitor earnings from projects using the music
+   - When approaching $1,000, contact creator
+   - Upgrade to OML-C before exceeding threshold
+
+4. For OML-C: Execute agreement
+   - Contact creator to negotiate terms
+   - Sign License Execution Agreement
+   - Make payments as agreed
+   - File reports if using royalty structure
+
+5. For OML-S: Plan ahead
+   - Contact creator early in your project
+   - Negotiate scope and terms
+   - Execute agreement before using music
+   - File cue sheets with PROs
+
+===============================================================================
+
+LEGAL NOTES
+
+THESE LICENSES ARE:
+• Legally binding contracts
+• Based on industry standards and practices
+• Designed for enforceability
+• Clear about rights and obligations
+
+THEY INCLUDE:
+• Grant of rights
+• Payment obligations
+• Attribution requirements
+• Warranties and representations
+• Indemnification provisions
+• Dispute resolution procedures
+• Termination conditions
+
+THEY ARE NOT:
+• Legal advice (consult an attorney for specific situations)
+• Substitutes for understanding copyright law
+• Guarantees against all legal issues
+• One-size-fits-all solutions for every situation
+
+BEST PRACTICE:
+• Read the full license before using or licensing music
+• Keep records of agreements and payments
+• Communicate clearly with the other party
+• Seek legal counsel for high-value deals or complex situations
+• Respect both the letter and spirit of the license
+
+===============================================================================
+
+VERSION HISTORY
+
+v1.0 (October 2025)
+• Initial release
+• Four complementary licenses: OML-F (Free/Open Source), OML-P (Personal Use), 
+  OML-C (Commercial Use), and OML-S (Sync License)
+• OML-F provides truly open source option with no restrictions
+• Compatible with sample library licenses (Splice, etc.) for OML-P, OML-C, OML-S
+• Flexible attribution requirements
+• Negotiated pricing approach
+• Clear distinction between personal use (under $1K) and commercial use
+• Dedicated sync license for audiovisual productions
+• Focus on practical, real-world usage
+
+===============================================================================
+
+SUPPORT AND RESOURCES
+
+For questions about the OML framework:
+• Review the full license text for detailed terms
+• Consult with an entertainment attorney for specific situations
+• Reach out to the creator for clarifications on their specific implementation
+
+For licensing music under OML:
+• Contact the creator directly using information provided with the Work
+• Be clear about your intended use and revenue expectations
+• Negotiate in good faith
+• Get everything in writing
+
+===============================================================================
+
+This guide is designed to help both creators and users understand and implement 
+the Open Music License framework. The OML system aims to balance fair 
+compensation for creators with accessible, practical licensing for users.
+
+===============================================================================

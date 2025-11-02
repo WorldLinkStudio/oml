@@ -1,0 +1,467 @@
+===============================================================================
+OPEN MUSIC LICENSE (OML)
+COMMERCIAL USE LICENSE
+
+Version 1.0 - Effective October 2025
+===============================================================================
+
+OVERVIEW
+
+This license allows unlimited commercial use of the musical work in exchange 
+for negotiated compensation (royalties, flat fee, or hybrid). This license is 
+required when your revenue exceeds $1,000 USD per year or when you want 
+unrestricted commercial rights from the start.
+
+===============================================================================
+
+1. DEFINITIONS
+
+"Work" means the musical composition, beat, instrumental, sound recording, 
+audio sample, loop, or other music asset covered by this license.
+
+"Creator" means the person or entity that created the Work.
+
+"You" or "Licensee" means the person or entity using the Work under this 
+license.
+
+"Gross Revenue" means all income received from projects using the Work, 
+calculated before any deductions.
+
+"Net Revenue" means Gross Revenue minus directly attributable costs like 
+distribution fees, payment processing fees, and platform commissions. General 
+business overhead and production costs are NOT deductible.
+
+"Commercial Use" means any revenue-generating use of the Work, without limits.
+
+===============================================================================
+
+2. WHAT YOU CAN DO
+
+You can:
+
+• Use the Work in unlimited commercial projects
+• Reproduce and distribute the Work in any format
+• Modify the Work and create derivative works
+• Monetize on all platforms without revenue limits
+• Perform the Work publicly for commercial gain
+• Stream the Work on all digital platforms
+• Use the Work in videos, advertising, and content creation
+• Sell products and services incorporating the Work
+• Create and distribute derivative works commercially
+
+All uses are permitted subject to payment obligations and terms agreed upon in 
+the License Execution Agreement.
+
+===============================================================================
+
+3. WHAT YOU CANNOT DO
+
+You cannot:
+
+• Remove or alter copyright notices or attribution
+• Claim you created the original Work
+• Sell, rent, or sublicense the Work by itself as a standalone product
+• Redistribute isolated stems or samples from the Work for others to use 
+  (unless specifically negotiated)
+• Use the Work in illegal content, hate speech, or content promoting violence
+• Use the Work to train AI models (requires separate permission)
+
+===============================================================================
+
+4. PAYMENT STRUCTURE
+
+Upon executing this license, you and the Creator will agree to ONE of these 
+payment structures:
+
+OPTION A: PERCENTAGE-BASED ROYALTY
+You pay the Creator a percentage of your Net Revenue. The specific percentage 
+is negotiated and specified in the License Execution Agreement below.
+
+Common royalty arrangements:
+• Music releases with the Work as primary element: typically 5-10% of Net 
+  Revenue
+• Background/ambient use: typically 2-5% of Net Revenue
+• Derivative works: typically 2-8% of Net Revenue depending on how much of the 
+  Work is used
+
+Reporting & Payment:
+• Quarterly reports due within 30 days of quarter end (April 30, July 31, 
+  October 31, January 31)
+• Payment due with report
+• Minimum payment threshold: $50 per quarter (if below $50, no payment due 
+  that quarter)
+• Late payments incur 1.5% monthly interest
+
+OPTION B: FLAT FEE
+You pay a one-time fee for specified uses. The amount and scope are negotiated 
+based on your intended use.
+
+Fee covers:
+• Defined scope of use (specify: project type, duration, territory, media)
+• One-time payment with no ongoing royalties
+• Can be perpetual or limited term
+
+OPTION C: HYBRID
+Upfront payment plus reduced ongoing royalties.
+
+Example structure:
+• Upfront fee: [negotiated amount]
+• Plus ongoing royalty: [negotiated percentage, typically 50% of standard rate]
+
+===============================================================================
+
+5. ATTRIBUTION REQUIREMENTS
+
+You must give credit to the Creator in an accessible location. This can be in:
+
+• Audio file metadata (Producer, Composer, or Comment fields)
+• Video description or credits
+• Track credits on streaming platforms (Spotify Credits, Apple Music, etc.)
+• Album liner notes or digital booklet
+• Social media post captions
+• Website credits page
+• Any other place where your audience can reasonably find it
+
+Minimum attribution format:
+"[Work Title] by [Creator Name]" or "prod. by [Creator Name]" or "Beat by 
+[Creator Name]"
+
+Include license reference somewhere accessible:
+"Licensed under OML-C" or "Licensed under Open Music License"
+
+Examples:
+• Audio metadata: Producer: "Radio Tom" + Comment: "Licensed under OML-C"
+• Spotify: Add "Radio Tom" to Producer credits
+• YouTube: "Music by Radio Tom (Licensed under OML-C)" in description
+• Album credits: "Produced by Radio Tom - Licensed under OML-C"
+
+For high-revenue uses (over $50,000), provide prominent attribution in primary 
+credits and include links to Creator's profiles when possible.
+
+===============================================================================
+
+6. REPORTING REQUIREMENTS (For Royalty Agreements)
+
+If you selected Option A (Percentage-Based Royalty), you must provide quarterly 
+reports including:
+
+• Reporting period dates
+• All revenue sources using the Work
+• Gross Revenue and Net Revenue calculations
+• Documentation of any deductions
+• Royalty calculation and amount due
+• Payment confirmation
+
+Keep accurate records for 4 years, including:
+• Revenue statements from all platforms
+• Contracts involving the Work
+• Proof of all deductions claimed
+
+The Creator may audit your records once per year with 30 days notice. If 
+underpayment exceeds 10%, you pay audit costs plus the deficiency plus 
+interest.
+
+===============================================================================
+
+7. UNDERLYING SAMPLES AND THIRD-PARTY CONTENT
+
+Important Note:
+
+If the Creator used samples from libraries like Splice, Loopcloud, or other 
+sources:
+
+• You receive rights to use the finished Work as delivered
+• You do NOT receive rights to underlying samples or elements
+• You cannot extract and redistribute individual samples or stems
+• The Work must be used as a complete composition
+
+The Creator warrants they have rights to license the Work to you, but 
+underlying samples remain subject to their original licenses.
+
+If you need stems or isolated elements, negotiate this separately with the 
+Creator.
+
+===============================================================================
+
+8. DERIVATIVE WORKS
+
+You can create and commercially exploit derivative works using the Work:
+
+• You own your original creative contributions
+• The underlying Work remains the Creator's property
+• Continue providing attribution
+• Pay royalties on derivative work revenue (if royalty structure selected)
+• Revenue from derivatives counts toward your payment obligations
+
+If you sublicense derivative works to others:
+• Notify Creator within 30 days
+• Pay Creator agreed-upon percentage of sublicensing revenue (typically 20-30%)
+• Ensure sublicensees provide proper attribution
+
+Attribution for derivatives:
+"Contains music by Radio Tom" or "Based on [Work Title] by Radio Tom" or 
+"[Song Title] (prod. by Radio Tom)"
+
+===============================================================================
+
+9. REPRESENTATIONS AND WARRANTIES
+
+Creator represents:
+• They own or control rights necessary to grant this license
+• The Work doesn't infringe third-party rights (to their knowledge)
+• They have authority to enter this agreement
+• The Work doesn't contain defamatory or unlawful content
+
+You represent:
+• You have authority to enter this agreement
+• You'll comply with all applicable laws
+• You'll maintain accurate records and provide truthful reports
+• You'll provide proper attribution
+
+Limited Warranty: The Work is provided "as is" except for the representations 
+above. No other warranties are made.
+
+===============================================================================
+
+10. INDEMNIFICATION
+
+Creator indemnifies you against:
+• Breach of Creator's representations
+• Third-party claims that the Work infringes their rights (provided you used 
+  the Work as licensed)
+
+You indemnify Creator against:
+• Breach of your representations
+• Your violations of applicable laws
+• Claims from your derivative works
+• Your failure to provide attribution
+• Use beyond licensed scope
+
+To claim indemnification: promptly notify the other party, cooperate in 
+defense, and allow them to control the defense (subject to your approval of any 
+settlement affecting your rights).
+
+===============================================================================
+
+11. LIABILITY LIMITS
+
+Each party's total liability is limited to the greater of:
+• Total payments made under this license in the past 12 months, OR
+• $5,000 USD
+
+Neither party is liable for indirect, consequential, or punitive damages 
+including lost profits, lost revenue, or business interruption.
+
+Exceptions: Limits don't apply to indemnification obligations, willful 
+misconduct, gross negligence, or IP violations.
+
+===============================================================================
+
+12. TERMINATION
+
+This license continues until terminated.
+
+Either party can terminate with 30 days written notice if the other party 
+materially breaches and doesn't cure within the notice period.
+
+Either party can terminate for convenience with 90 days notice, provided:
+• All outstanding payments are made
+• All reports are submitted
+• Final reconciliation is completed
+
+Upon termination:
+• Your rights to use the Work cease
+• Stop all new uses and distributions
+• Existing inventory can be sold for 90 days (wind-down period)
+• All unpaid royalties become immediately due
+• Warranties, indemnification, and liability limits survive
+
+Derivative works lawfully created before termination can continue being 
+exploited unless termination was for your material breach.
+
+===============================================================================
+
+13. DISPUTE RESOLUTION
+
+Before formal action, attempt good faith negotiation for 30 days.
+
+If negotiation fails, submit to mediation under AAA rules. Costs split equally.
+
+If mediation fails within 60 days, either party may initiate binding 
+arbitration under AAA Commercial Arbitration Rules:
+• One arbitrator (mutually agreed or selected per AAA rules)
+• Conducted in Creator's jurisdiction unless otherwise agreed
+• Decision is final and binding
+• Each party pays own attorneys' fees unless arbitrator awards fees to 
+  prevailing party
+
+Either party may seek injunctive relief in court for:
+• Preventing unauthorized use or infringement
+• Enforcing attribution requirements
+• Protecting confidential information
+• Enforcing payment obligations
+
+Governing Law: Laws of [Creator's Jurisdiction]
+
+===============================================================================
+
+14. GENERAL PROVISIONS
+
+Entire Agreement: This license plus the License Execution Agreement constitute 
+the complete agreement.
+
+Amendment: Only by written agreement signed by both parties.
+
+Assignment: You cannot assign without Creator's written consent. Creator can 
+assign payment rights with notice to you.
+
+Severability: Invalid provisions are struck; remaining provisions stay in 
+effect.
+
+Waiver: No waiver of any provision unless in writing.
+
+Force Majeure: Neither party liable for failures due to circumstances beyond 
+reasonable control.
+
+Independent Contractors: Parties are independent contractors, not partners or 
+agents.
+
+Notices: Written notices to addresses in License Execution Agreement. Effective 
+on email delivery or 3 days after certified mail.
+
+Electronic Signatures: Valid and binding.
+
+Acceptance: By using the Work commercially, making payments, or executing this 
+agreement, you accept these terms.
+
+===============================================================================
+
+15. LICENSE NOTICE
+
+When distributing projects using the Work, include a license notice somewhere 
+accessible:
+
+"This work contains music licensed under the Open Music License (OML-C). 
+Creator: [Name]. Commercial license obtained [Date]."
+
+This doesn't need to appear in titles - just somewhere users can find it if 
+they look (metadata, descriptions, credits, documentation).
+
+===============================================================================
+
+LICENSE EXECUTION AGREEMENT
+
+This agreement is executed between:
+
+CREATOR: _________________________________________________________________
+
+LICENSEE: ________________________________________________________________
+
+For the Work described below:
+
+===============================================================================
+
+WORK INFORMATION
+
+Title: ___________________________________________________________________
+
+Creator/Artist Name: _____________________________________________________
+
+Description: _____________________________________________________________
+
+________________________________________________________________________
+
+Duration: ________________________________________________________________
+
+===============================================================================
+
+PAYMENT STRUCTURE SELECTED
+
+[ ] OPTION A: Percentage-Based Royalty
+    Royalty Rate: _______% of Net Revenue
+    Reporting: Quarterly
+    Minimum threshold: $50 per quarter
+    
+[ ] OPTION B: Flat Fee
+    Amount: $________________ USD
+    Scope: ______________________________________________________________
+    Term: [ ] Perpetual  [ ] _____ years  [ ] Other: __________________
+    
+[ ] OPTION C: Hybrid
+    Upfront Fee: $________________ USD
+    Plus Royalty: _______% of Net Revenue
+    Reporting: Quarterly
+
+===============================================================================
+
+PAYMENT DETAILS
+
+Payment Method:
+[ ] Bank Transfer (Details: ______________________________________________)
+[ ] PayPal (Email: ______________________________________________________)
+[ ] Check (Payable to: __________________________________________________)
+[ ] Other: ______________________________________________________________
+
+Creator's Payment Information:
+Name: ___________________________________________________________________
+Address: ________________________________________________________________
+Email: __________________________________________________________________
+Phone: __________________________________________________________________
+Tax ID (if applicable): ________________________________________________
+
+===============================================================================
+
+SCOPE OF USE
+
+Intended Use: ___________________________________________________________
+
+________________________________________________________________________
+
+Territory: [ ] Worldwide  [ ] ___________________________________________
+
+Media/Platforms: [ ] All Media  [ ] _____________________________________
+
+Special Terms or Restrictions: __________________________________________
+
+________________________________________________________________________
+
+===============================================================================
+
+ADDITIONAL TERMS
+
+Any special provisions, restrictions, or custom terms:
+
+________________________________________________________________________
+
+________________________________________________________________________
+
+________________________________________________________________________
+
+========================================================================
+
+SIGNATURES
+
+By signing below, both parties agree to all terms of this License and the 
+License Execution Agreement.
+
+CREATOR:
+
+Signature: ______________________________  Date: ________________________
+
+Printed Name: ___________________________________________________________
+
+
+LICENSEE:
+
+Signature: ______________________________  Date: ________________________
+
+Printed Name: ___________________________________________________________
+
+===============================================================================
+
+This license enables fair commercial exploitation while ensuring creators 
+receive appropriate compensation for their work. It's designed for the modern 
+music industry where creators use various tools and samples, and licensees 
+need clear, enforceable commercial rights.
+
+===============================================================================

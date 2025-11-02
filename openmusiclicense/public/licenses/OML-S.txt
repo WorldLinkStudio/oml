@@ -1,0 +1,605 @@
+===============================================================================
+OPEN MUSIC LICENSE (OML)
+SYNC LICENSE
+
+Version 1.0 - Effective October 2025
+===============================================================================
+
+OVERVIEW
+
+This license grants rights to synchronize the musical work with visual media 
+(film, TV, advertising, video games, online video, etc.). Payment is typically 
+a negotiated flat fee based on your project's scope, budget, and distribution.
+
+This license provides both Master Rights (the recording) and Sync Rights (the 
+composition) in one agreement for complete clearance.
+
+===============================================================================
+
+1. DEFINITIONS
+
+"Work" means the musical composition and sound recording covered by this 
+license.
+
+"Creator" means the person or entity that created the Work.
+
+"You" or "Licensee" means the person, company, or entity licensing the Work for 
+synchronization.
+
+"Project" means the specific audiovisual production identified in the License 
+Execution Agreement.
+
+"Sync" or "Synchronization" means using the Work in timed relation with visual 
+images.
+
+"License Fee" means the flat fee payment agreed upon for the rights granted.
+
+"Term" means how long you can use the Work (e.g., perpetual, 5 years, etc.).
+
+"Territory" means where you can distribute the Project (e.g., worldwide, North 
+America, etc.).
+
+"Media" means which platforms you can use (e.g., theatrical, streaming, social 
+media, etc.).
+
+===============================================================================
+
+2. RIGHTS GRANTED
+
+You receive both Master Rights and Sync Rights in one license:
+
+Master Rights - to use the sound recording:
+• Use the recording as provided
+• Reproduce it in your Project
+• Distribute the Project containing the recording
+• Publicly perform the recording as part of the Project
+• Make technical adaptations (format conversion, compression, etc.)
+
+Sync Rights - to use the musical composition:
+• Synchronize the composition with visual images
+• Reproduce the composition in your Project
+• Distribute the Project containing the composition
+• Publicly perform the composition as part of the Project
+
+You can:
+• Use the Work in your specified Project
+• Distribute the Project in specified Media and Territory
+• Edit the Work as needed for timing and technical requirements
+• Use in promotional materials if specified in agreement
+
+===============================================================================
+
+3. SCOPE LIMITATIONS
+
+Rights are limited to what's specified in the License Execution Agreement:
+
+• Project: Only the specific project identified (each new project needs a new 
+  license)
+• Term: Only for the duration specified (perpetual, or specific years)
+• Territory: Only in geographical areas specified (worldwide, regional, etc.)
+• Media: Only on platforms specified (theatrical, streaming, broadcast, etc.)
+• Usage: As specified (featured, background, credits, promotional, etc.)
+
+Use beyond these limits requires a new license or written amendment.
+
+===============================================================================
+
+4. PAYMENT
+
+Sync licenses use a flat fee structure. The License Fee is negotiated based on:
+
+• Project type and budget
+• How prominently the Work is used
+• Term duration
+• Territory coverage
+• Media platforms
+• Exclusivity (if any)
+
+The specific License Fee and payment terms are set in the License Execution 
+Agreement below.
+
+Standard payment options:
+• Full payment upon execution
+• 50% upon execution, 50% before first use
+• Custom schedule based on project milestones
+
+Performance Royalties:
+Creator retains rights to performance royalties through PROs (ASCAP, BMI, 
+SESAC, etc.). These are separate from the License Fee. You must file accurate 
+cue sheets with PROs documenting all uses of the Work in the Project.
+
+===============================================================================
+
+5. TERM, TERRITORY, AND MEDIA
+
+TERM OPTIONS:
+• In Perpetuity: Rights granted forever with no expiration
+• Fixed Term: Specified number of years (1, 3, 5, 10, etc.) from first use
+• Conditional: Rights tied to specific conditions (festival circuit, initial 
+  broadcast run, etc.)
+
+Upon expiration of fixed or conditional terms, you must cease distribution or 
+negotiate renewal.
+
+TERRITORY OPTIONS:
+• Worldwide: All territories globally
+• Regional: Specific regions (North America, Europe, etc.)
+• Limited: Specific countries or contexts
+
+MEDIA OPTIONS:
+• Theatrical (movie theaters)
+• Broadcast Television (network, cable, syndication)
+• Streaming (Netflix, Hulu, Amazon, Disney+, etc.)
+• Social Media (YouTube, TikTok, Instagram, Facebook, etc.)
+• Home Video (DVD, Blu-ray, digital download)
+• Advertising (broadcast, digital, out-of-home)
+• Video Games
+• Corporate/Industrial
+• Educational
+• Web (websites, web series)
+• All Media (unrestricted across all current and future platforms)
+
+===============================================================================
+
+6. MODIFICATIONS AND EDITS
+
+You can make these modifications:
+
+Permitted:
+• Edit length (cut, trim, loop)
+• Adjust volume, EQ, compression
+• Format conversions for different media
+• Timing adjustments for synchronization
+
+Requires Creator Approval:
+• Altering lyrics or vocal content significantly
+• Major musical rearrangement
+• Use of isolated stems that substantially change the Work's character
+
+===============================================================================
+
+7. ATTRIBUTION AND CREDITS
+
+You must provide clear credit to the Creator.
+
+Required Placement:
+• Film/TV/Video: End credits under "Music" section, minimum 3 seconds, legible 
+  text
+• Advertising: End credits or as required by platform (minimum 2 seconds for 
+  broadcast)
+• Video Games: Credits screen or documentation
+• Social Media: Video description
+• All formats: Include in cue sheets filed with PROs
+
+Credit Format:
+"Music: [Work Title] by Radio Tom" or "[Work Title]" / "Written and Performed 
+by Radio Tom"
+
+License Reference (somewhere accessible, not necessarily on-screen):
+"Licensed under OML-S" in documentation, cue sheets, or internal records
+
+For major placements, Creator may request approval of credit placement (not to 
+be unreasonably withheld).
+
+===============================================================================
+
+8. CUE SHEETS AND PRO REPORTING
+
+You must:
+• Prepare accurate cue sheets for all broadcasts and public performances
+• File cue sheets with appropriate PROs within 30 days of first broadcast
+• Provide Creator with copy of cue sheets within 30 days
+• Include: Project title, Work title, Creator name, PRO affiliation, usage 
+  type, duration, timing
+
+Cue Sheet Information Needed:
+• Creator's legal name and PRO affiliation (provided in License Execution 
+  Agreement)
+• Publisher information (if applicable)
+• Whether usage is featured, background, theme, visual vocal, etc.
+• Exact duration and timing in Project
+
+===============================================================================
+
+9. EXCLUSIVITY (Optional)
+
+Default: Non-Exclusive - Creator can license the Work to others.
+
+If negotiated, exclusivity options include:
+
+• Category Exclusivity: Creator won't license for competing projects in 
+  specified category (e.g., no other automotive ads)
+• Project Exclusivity: Creator won't license for any other audiovisual projects 
+  during exclusivity period
+• Territory Exclusivity: Creator won't license within specified territory 
+  during exclusivity period
+• Total Exclusivity: Creator won't license to anyone else during exclusivity 
+  period
+
+Exclusivity must be specified in License Execution Agreement with defined start 
+and end dates. Additional compensation typically required for exclusivity.
+
+===============================================================================
+
+10. CONTENT RESTRICTIONS AND APPROVALS (Optional)
+
+If specified in the agreement, Creator may restrict association with:
+• Tobacco products
+• Firearms/weapons
+• Political campaigns
+• Adult content
+• Other specified categories
+
+Approval Options:
+• Automatic Approval: No Creator approval needed (default)
+• Final Cut Approval: Creator approves final version before release (response 
+  within 5 business days or deemed approved)
+• Concept Approval: Creator approves script/storyboard before license 
+  finalization
+
+===============================================================================
+
+11. DELIVERY
+
+Creator provides the Work in specified format:
+• Standard: WAV or AIFF, 24-bit/48kHz, stereo
+• Alternate versions if requested: instrumental, stems, custom edits, clean 
+  versions
+• Delivery method: WeTransfer, Dropbox, Google Drive, physical media, or FTP
+• Timeline: Within 5 business days unless rush delivery requested
+
+The Work must be free from technical defects and properly mixed/mastered for 
+intended use.
+
+===============================================================================
+
+12. REPRESENTATIONS AND WARRANTIES
+
+Creator warrants:
+• They own or control all master and sync rights
+• The Work doesn't infringe third-party rights
+• All samples and third-party elements (if any) are properly cleared
+• They have authority to grant this license
+• The Work doesn't contain defamatory or unlawful content
+
+You warrant:
+• You have authority to enter this agreement
+• You'll comply with all applicable laws
+• You'll provide accurate attribution and file proper cue sheets
+• The Project won't defame or misrepresent the Creator
+• You're responsible for clearing all other elements in the Project
+
+===============================================================================
+
+13. INDEMNIFICATION
+
+Creator indemnifies you against:
+• Breach of Creator's warranties
+• Claims that the Work infringes third-party rights
+• Issues with samples or elements in the Work
+
+You indemnify Creator against:
+• Breach of your warranties
+• The Project's production, distribution, or content (excluding claims solely 
+  about the Work as provided)
+• Modifications beyond permitted edits
+• Failure to provide attribution or file cue sheets
+• Use beyond licensed scope
+
+Indemnification Process:
+• Promptly notify other party of any claim
+• Cooperate in defense
+• Indemnifying party controls defense and settlement (subject to indemnified 
+  party's approval if settlement affects their rights)
+
+===============================================================================
+
+14. LIABILITY LIMITS
+
+Creator's liability is limited to the total License Fee paid.
+
+Neither party is liable for indirect, consequential, or punitive damages 
+including lost profits, lost revenue, or business interruption.
+
+Exceptions: Limits don't apply to indemnification obligations, willful 
+misconduct, gross negligence, or IP violations.
+
+===============================================================================
+
+15. TERMINATION
+
+For Fixed or Conditional Term licenses:
+• Rights expire at end of Term
+• You have 30 days to remove Project from distribution
+• Cannot manufacture new copies after wind-down period
+
+For Breach:
+• 30 days written notice to cure
+• If not cured, breaching party's rights/obligations may be terminated
+• Outstanding payments become immediately due
+
+If You Breach:
+• All rights cease immediately
+• Stop all use and distribution
+• Creator may seek injunctive relief
+
+If Creator Breaches:
+• You retain rights for original Term
+• Entitled to refund of License Fee (or prorated portion)
+
+Survival: Warranties, indemnification, liability limits, and dispute resolution 
+survive termination.
+
+===============================================================================
+
+16. DISPUTE RESOLUTION
+
+Good faith negotiation for 30 days.
+
+If that fails, mediation under AAA rules (costs split equally).
+
+If mediation fails within 60 days, binding arbitration under AAA Commercial 
+Arbitration Rules:
+• One arbitrator (mutually agreed or selected per AAA rules)
+• In Creator's jurisdiction unless otherwise agreed
+• Decision is final and binding
+• Each party pays own fees unless arbitrator awards to prevailing party
+
+Either party may seek injunctive relief in court for unauthorized use, 
+attribution violations, confidentiality breaches, or payment enforcement.
+
+Governing Law: [Creator's Jurisdiction]
+
+===============================================================================
+
+17. GENERAL PROVISIONS
+
+Entire Agreement: This license plus License Execution Agreement is the complete 
+agreement.
+
+Amendment: Only by written agreement signed by both parties.
+
+Assignment: You cannot assign without Creator consent, except to successor 
+entity in merger/acquisition. Creator can assign payment rights with notice.
+
+Severability: Invalid provisions struck; remaining provisions stay in effect.
+
+Waiver: No waiver unless in writing.
+
+Force Majeure: Neither party liable for failures due to circumstances beyond 
+control.
+
+Confidentiality: Both parties keep non-public information confidential.
+
+Notices: Written to addresses in License Execution Agreement. Effective on 
+email delivery or 3 days after certified mail.
+
+Electronic Signatures: Valid and binding.
+
+===============================================================================
+
+LICENSE EXECUTION AGREEMENT
+
+CREATOR: _________________________________________________________________
+
+LICENSEE: ________________________________________________________________
+
+PROJECT: _________________________________________________________________
+
+===============================================================================
+
+WORK INFORMATION
+
+Title: ___________________________________________________________________
+
+Creator/Artist Name: Radio Tom (or: ______________________________________)
+
+Duration: ________________________________________________________________
+
+Description: _____________________________________________________________
+
+Alternate Versions Included:
+[ ] Instrumental  [ ] Stems  [ ] Custom Edit  [ ] Clean Version  
+[ ] Other: ______________________________________________________________
+
+Creator's PRO Affiliation:
+[ ] ASCAP  [ ] BMI  [ ] SESAC  [ ] Not affiliated  [ ] Other: ___________
+
+PRO Member ID: ___________________________________________________________
+
+Publisher (if applicable): ______________________________________________
+
+===============================================================================
+
+PROJECT INFORMATION
+
+Title: ___________________________________________________________________
+
+Type: [ ] Film  [ ] TV  [ ] Documentary  [ ] Advertising  [ ] Video Game  
+[ ] Web Series  [ ] Corporate  [ ] Music Video  [ ] Other: _______________
+
+Description: _____________________________________________________________
+
+________________________________________________________________________
+
+Production Company: ______________________________________________________
+
+Expected Release Date: ___________________________________________________
+
+===============================================================================
+
+LICENSE TERMS
+
+TERM:
+[ ] In Perpetuity
+[ ] Fixed: _____ years from first use
+[ ] Conditional: ________________________________________________________
+
+TERRITORY:
+[ ] Worldwide
+[ ] North America
+[ ] United States only
+[ ] Regional: ___________________________________________________________
+[ ] Other: ______________________________________________________________
+
+MEDIA:
+[ ] All Media
+[ ] Theatrical
+[ ] Broadcast Television
+[ ] Streaming (specify platforms: _______________________________________)
+[ ] Social Media
+[ ] Home Video
+[ ] Advertising (specify: _______________________________________________)
+[ ] Video Games
+[ ] Corporate/Industrial
+[ ] Educational
+[ ] Web
+[ ] Other: ______________________________________________________________
+
+USAGE MANNER:
+[ ] Featured (primary/prominent)
+[ ] Background (ambient/incidental)
+[ ] Credits (opening/closing)
+[ ] Promotional (trailers, marketing)
+
+NUMBER OF USES:
+[ ] Single production
+[ ] Series: _____ episodes
+[ ] Campaign: _____ spots
+[ ] Other: ______________________________________________________________
+
+EXCLUSIVITY:
+[ ] Non-Exclusive (standard)
+[ ] Category Exclusive: _________________________________________________
+    Period: ____________________________________________________________
+[ ] Project Exclusive: __________________________________________________
+    Period: ____________________________________________________________
+[ ] Territory Exclusive: ________________________________________________
+    Period: ____________________________________________________________
+[ ] Total Exclusivity: __________________________________________________
+    Period: ____________________________________________________________
+
+CONTENT RESTRICTIONS:
+[ ] No restrictions
+[ ] No tobacco  [ ] No firearms  [ ] No political campaigns  [ ] No adult content
+[ ] Other: ______________________________________________________________
+
+APPROVAL RIGHTS:
+[ ] No approval required (automatic)
+[ ] Final cut approval required
+[ ] Concept/script approval required
+[ ] Other: ______________________________________________________________
+
+===============================================================================
+
+PAYMENT TERMS
+
+LICENSE FEE: $__________________ USD
+
+PAYMENT SCHEDULE:
+[ ] Full payment upon execution
+[ ] 50% upon execution ($__________), 50% before first use ($__________)
+[ ] Custom: _____________________________________________________________
+
+PAYMENT METHOD:
+[ ] Bank Transfer (details: ____________________________________________)
+[ ] PayPal (email: _____________________________________________________)
+[ ] Check (payable to: __________________________________________________)
+[ ] Other: ______________________________________________________________
+
+RUSH FEE (if applicable):
+[ ] Not applicable
+[ ] Rush delivery: Add $_____________ to License Fee
+
+===============================================================================
+
+CREATOR PAYMENT INFORMATION
+
+Name: ____________________________________________________________________
+
+Address: _________________________________________________________________
+
+         _________________________________________________________________
+
+Email: ___________________________________________________________________
+
+Phone: ___________________________________________________________________
+
+Bank/Payment Details: ____________________________________________________
+
+________________________________________________________________________
+
+Tax ID (if applicable): _________________________________________________
+
+===============================================================================
+
+LICENSEE INFORMATION
+
+Name: ____________________________________________________________________
+
+Company: _________________________________________________________________
+
+Address: _________________________________________________________________
+
+         _________________________________________________________________
+
+Email: ___________________________________________________________________
+
+Phone: ___________________________________________________________________
+
+Authorized Signatory: ____________________________________________________
+
+Title: ___________________________________________________________________
+
+Tax ID (if applicable): _________________________________________________
+
+===============================================================================
+
+DELIVERY SPECIFICATIONS
+
+Format: [ ] WAV 24/48  [ ] WAV 24/44.1  [ ] AIFF  [ ] MP3 320  [ ] Other: ____
+
+Delivery Method: [ ] WeTransfer  [ ] Dropbox  [ ] Google Drive  [ ] Physical  
+[ ] FTP  [ ] Other: ______________________________________________________
+
+Delivery Deadline: _______________________________________________________
+
+===============================================================================
+
+ADDITIONAL TERMS
+
+Any special provisions or custom terms:
+
+________________________________________________________________________
+
+________________________________________________________________________
+
+________________________________________________________________________
+
+===============================================================================
+
+SIGNATURES
+
+By signing, both parties agree to all terms of this License and License 
+Execution Agreement.
+
+CREATOR:
+
+Signature: ______________________________  Date: ________________________
+
+Printed Name: ___________________________________________________________
+
+
+LICENSEE:
+
+Signature: ______________________________  Date: ________________________
+
+Printed Name: ___________________________________________________________
+
+===============================================================================
+
+This license provides fair, transparent terms for synchronizing music with 
+visual media. It balances creator compensation with clear, enforceable rights 
+for content producers.
+
+===============================================================================

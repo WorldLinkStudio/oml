@@ -1,0 +1,546 @@
+===============================================================================
+OPEN MUSIC LICENSE (OML)
+FREE LICENSE
+
+Version 1.0 - Effective October 2025
+===============================================================================
+
+OVERVIEW
+
+This is a fully open source license for music. You can use, modify, sell, and 
+distribute this work freely with no restrictions or revenue limits. You only 
+need to provide attribution to the creator and include this license with any 
+distribution.
+
+This license is inspired by open source software licenses and is designed for 
+creators who want their music to be as open and accessible as possible.
+
+===============================================================================
+
+1. DEFINITIONS
+
+"Work" means the musical composition, beat, instrumental, sound recording, 
+audio sample, loop, stem, or other music asset covered by this license, 
+including all component elements and individual tracks.
+
+"Creator" means the person or entity that created the Work.
+
+"You" means any person or entity using the Work under this license.
+
+"Derivative Work" means any musical composition, recording, or production that 
+incorporates, transforms, modifies, samples, or is based upon the Work.
+
+"Distribution" means making the Work or Derivative Works available to others, 
+whether for free or for sale.
+
+===============================================================================
+
+2. WHAT YOU CAN DO
+
+You can do ANYTHING with this work, including:
+
+• Use the Work in any project (personal, commercial, nonprofit)
+• Modify the Work in any way
+• Create Derivative Works and remixes
+• Sell the Work or Derivative Works
+• Distribute the Work or Derivative Works (free or paid)
+• Stream, perform, broadcast, and display the Work
+• Use individual stems, samples, and elements from the Work
+• Extract and reuse sounds and components
+• Sublicense the Work or Derivative Works
+• Use the Work in commercial products and services
+• Monetize without any revenue limits or thresholds
+• Use in advertising, film, TV, video games, and all media
+• Release on any platform or format
+• Grant others rights to use the Work
+
+There are NO restrictions on how you can use, modify, or profit from this Work.
+
+===============================================================================
+
+3. YOUR ONLY REQUIREMENTS
+
+You must do TWO things:
+
+REQUIREMENT 1: ATTRIBUTION
+Provide clear credit to the Creator in an accessible location:
+
+• Audio file metadata (Producer, Composer, or Comment fields)
+• Video description or credits
+• Track credits on streaming platforms
+• Album liner notes or digital booklet
+• Social media posts or captions
+• Website credits page
+• Product documentation
+• Any other place where credits are reasonably provided
+
+Minimum attribution format:
+"[Work Title] by [Creator Name]" or "prod. by [Creator Name]" or "Original 
+music by [Creator Name]"
+
+REQUIREMENT 2: INCLUDE LICENSE
+When you distribute the Work or Derivative Works, you must:
+
+• Include a copy of this OML-F license, OR
+• Include a link to this license, OR
+• Include a notice stating "Licensed under OML-F 1.0" with a link to where 
+  the license can be found
+
+This ensures anyone receiving the Work knows their rights under this license.
+
+That's it. No revenue limits. No approval requirements. No restrictions on use.
+
+===============================================================================
+
+4. WHAT YOU CAN DO WITH STEMS AND SAMPLES
+
+Unlike other OML licenses, OML-F grants you full access to everything:
+
+• Extract individual stems, tracks, and elements
+• Use samples and sounds from the Work in other projects
+• Redistribute stems and isolated elements
+• Create sample packs using sounds from the Work
+• Build upon individual components however you choose
+
+The only requirements remain: attribution and license inclusion.
+
+If the Creator provides stems, individual tracks, or isolated elements, you can 
+use them freely. If stems aren't provided but you want them, contact the 
+Creator to request them.
+
+===============================================================================
+
+5. YOUR DERIVATIVE WORKS
+
+When you create something using the Work:
+
+• You own your original creative contributions
+• The original Work remains under OML-F
+• Your Derivative Work can be licensed however you choose (but the original 
+  Work portions remain OML-F)
+• You must still provide attribution to the original Creator
+• You must include the OML-F license with any distribution
+
+You can:
+• Release Derivative Works commercially
+• License Derivative Works under different terms for your contributions
+• Sell beats, songs, or products incorporating the Work
+• Grant exclusive rights to your Derivative Works (but not to the underlying 
+  OML-F Work)
+
+Attribution examples for Derivative Works:
+"Contains music by Radio Tom (OML-F)" or "Based on [Work Title] by Radio Tom" 
+or "Sample from [Work Title] by Radio Tom - Licensed under OML-F"
+
+===============================================================================
+
+6. REDISTRIBUTION RULES
+
+You can redistribute the Work or Derivative Works freely, but you must:
+
+• Keep all copyright notices and attribution information intact
+• Include a copy of this license or a link to it
+• Clearly indicate if you made modifications to the original Work
+• Not add additional restrictions that limit what recipients can do under 
+  OML-F
+
+If you distribute just the original Work (unmodified or modified), it must 
+remain under OML-F. If you create a Derivative Work, you can license your new 
+contributions separately, but the OML-F portions stay OML-F.
+
+Examples:
+
+Scenario 1: You remix the beat
+• Original beat remains OML-F
+• Your new elements (melody you added, vocals, etc.) can be under any license
+• Must credit original Creator and include OML-F license for the beat portion
+
+Scenario 2: You create a sample pack using sounds from the Work
+• Samples derived from OML-F Work remain OML-F
+• Must credit Creator and include OML-F license with sample pack
+• Your sample pack can be sold - just include proper attribution and license
+
+Scenario 3: You distribute the unmodified Work
+• Must include complete OML-F license
+• Must keep Creator's attribution intact
+• Can charge for distribution (hosting, physical media, etc.)
+
+===============================================================================
+
+7. SUBLICENSING AND THIRD PARTIES
+
+You can grant others rights to use the Work or Derivative Works:
+
+• Sublicenses are permitted
+• You can license Derivative Works to others commercially
+• Recipients receive the same OML-F rights to the original Work portions
+• You cannot remove or restrict the OML-F freedoms for the original Work
+
+Example: You create a beat using OML-F samples and sell it to an artist
+• Artist gets full OML-F rights to the original samples/elements
+• You can negotiate separate terms for your creative contributions
+• Artist must credit original Creator and include OML-F license
+• Artist can then create and sell their own song using your beat
+
+===============================================================================
+
+8. ATTRIBUTION EXAMPLES BY CONTEXT
+
+Audio Files and Music Releases:
+• Metadata - Producer: "Radio Tom" + Comment: "Licensed under OML-F 1.0"
+• Streaming credits: Add Creator to Producer, Composer, or Writer credits
+• Format: "prod. by Radio Tom (OML-F)" or "Contains music by Radio Tom - OML-F"
+
+Video Content:
+• Description: "Music: [Track Name] by Radio Tom (Licensed under OML-F)"
+• End credits: "Music by Radio Tom | OML-F License"
+
+Social Media:
+• Caption: "Beat by Radio Tom | OML-F" or "Music: Radio Tom (Free License)"
+
+Streaming Platforms:
+• Use platform credits features (Spotify, Apple Music, etc.)
+• Add Creator name to appropriate fields
+• Include license reference in description or credits
+
+Sample Packs and Sound Libraries:
+• Include Creator attribution in pack documentation
+• Add license info to sample metadata
+• Format: "Source: [Work Title] by Radio Tom - Licensed under OML-F"
+
+Websites and Apps:
+• Credits page or documentation
+• Footer attribution if Work is used throughout
+• Format: "Music by Radio Tom (OML-F License)"
+
+Physical Products:
+• Packaging or accompanying documentation
+• Format: "Music: Radio Tom - Licensed under OML-F 1.0"
+
+===============================================================================
+
+9. NO WARRANTY
+
+THE WORK IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, 
+INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS FOR A 
+PARTICULAR PURPOSE, TITLE, OR NON-INFRINGEMENT.
+
+The Creator makes no guarantees about:
+• Quality, accuracy, or suitability of the Work
+• Absence of third-party claims or infringement issues
+• Compatibility with your systems or workflows
+• Continued availability or support
+
+YOU USE THE WORK AT YOUR OWN RISK.
+
+===============================================================================
+
+10. LIMITATION OF LIABILITY
+
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE CREATOR SHALL NOT BE LIABLE FOR 
+ANY DAMAGES ARISING FROM USE OF THE WORK, INCLUDING BUT NOT LIMITED TO:
+• Direct, indirect, incidental, or consequential damages
+• Loss of profits, revenue, data, or business
+• Cost of substitute goods or services
+• Any other losses or damages of any kind
+
+This applies even if the Creator was advised of the possibility of such damages.
+
+Some jurisdictions don't allow exclusion of liability, so these limitations may 
+not fully apply to you.
+
+===============================================================================
+
+11. PATENT AND TRADEMARK NOTICE
+
+This license does not grant you any rights to:
+• Use the Creator's name, trademarks, or logos for endorsement or advertising 
+  without written permission
+• Any patents the Creator may hold
+• Imply Creator endorsement of your products or Derivative Works
+
+You can credit the Creator as required, but cannot use their name or brand for 
+marketing beyond factual attribution.
+
+===============================================================================
+
+12. TERMINATION
+
+This license is perpetual and cannot be revoked by the Creator.
+
+However, YOUR rights terminate automatically if you fail to:
+• Provide proper attribution, OR
+• Include the license with distributions, OR  
+• Preserve copyright notices in the Work
+
+If your rights terminate:
+• Stop distributing the Work or Derivative Works
+• Remove the Work from products and services under your control
+• You have 30 days to cure attribution or license inclusion violations
+• If cured within 30 days, your rights are automatically restored
+• This cure option is available once per violation type
+
+Sections 9 (No Warranty) and 10 (Limitation of Liability) survive any 
+termination.
+
+===============================================================================
+
+13. COMPATIBILITY WITH SAMPLE LIBRARIES
+
+Important Note:
+
+If the Creator used samples from commercial libraries (Splice, Loopcloud, etc.) 
+to create this Work, those underlying samples remain subject to their original 
+licenses.
+
+The Creator can only grant OML-F rights to:
+• Elements they created entirely themselves
+• Samples and sounds they have rights to distribute openly
+• Their own arrangements, compositions, and creative contributions
+
+If the Creator used commercial samples with restrictive licenses, they should 
+clearly disclose this, and those restrictions may limit what you can do with 
+isolated elements.
+
+Best practice: Ask the Creator if the Work contains any restricted samples 
+before extracting and redistributing individual elements.
+
+For Works created entirely from scratch or using other OML-F or public domain 
+materials, you have complete freedom with all elements.
+
+===============================================================================
+
+14. COPYLEFT OPTION (OPTIONAL)
+
+Some Creators may want a "copyleft" approach where Derivative Works must also 
+be OML-F. This is OPTIONAL and must be clearly stated by the Creator:
+
+Standard OML-F (default):
+• Your Derivative Works can be under any license you choose
+• Only the original OML-F portions remain OML-F
+
+OML-F with Copyleft (if Creator specifies):
+• Derivative Works must also be licensed under OML-F
+• This ensures the Work and all derivatives remain free and open
+• Similar to GPL in software
+
+The Creator must explicitly state if they're using the copyleft option. If not 
+specified, assume standard OML-F (no copyleft requirement).
+
+===============================================================================
+
+15. GENERAL PROVISIONS
+
+Entire Agreement: This license is the complete agreement regarding the Work.
+
+Governing Law: This license is governed by the laws of the Creator's 
+jurisdiction.
+
+Severability: If any provision is invalid, the rest remains in effect.
+
+No Waiver: Failure to enforce any term doesn't waive the right to enforce it 
+later.
+
+Assignment: You can transfer your rights under this license. The Creator can 
+assign their rights with notice.
+
+Acceptance: By using, modifying, or distributing the Work, you accept these 
+terms.
+
+Language: If this license is translated, the English version controls in case 
+of conflicts.
+
+Updates: The Creator may release updated versions of OML-F. You can choose to 
+use the Work under the original version or any later version.
+
+===============================================================================
+
+16. WHY OML-F?
+
+This license exists for creators who believe in:
+
+• Maximum creative freedom
+• Open collaboration and sharing
+• Building upon others' work
+• Removing barriers to creativity
+• Free and open culture
+• Community over commercialization (while still allowing commercial use)
+
+OML-F is for music what MIT and Apache licenses are for software - truly open, 
+truly free, with minimal restrictions.
+
+If you want more control or compensation, consider:
+• OML-P (free under $1K, then requires commercial license)
+• OML-C (commercial license with negotiated payment)
+• OML-S (sync license for audiovisual productions)
+
+OML-F is the most permissive option - use it when you want your music to be as 
+accessible and reusable as possible.
+
+===============================================================================
+
+17. LICENSE NOTICE
+
+When distributing the Work or Derivative Works, include this notice:
+
+"This work contains music licensed under the Open Music License - Free (OML-F). 
+Creator: [Name]. You are free to use, modify, and distribute this work with 
+attribution. Full license: [URL or included file]"
+
+===============================================================================
+
+CREATOR INFORMATION (To be completed by Creator)
+
+Creator Name: ____________________________________________________________
+
+Contact Email: ___________________________________________________________
+
+Website/Links: ___________________________________________________________
+
+Attribution Preference: __________________________________________________
+(How you'd like to be credited)
+
+Copyleft Option:
+[ ] Standard OML-F (Derivative Works can use any license)
+[ ] OML-F with Copyleft (Derivative Works must remain OML-F)
+
+Stems/Elements Included:
+[ ] Full stems and isolated tracks provided
+[ ] Stems available upon request
+[ ] No stems available (use as-is)
+
+Sample Disclosure:
+[ ] Work created entirely from scratch/original recording
+[ ] Work created using other OML-F or public domain materials
+[ ] Work contains some commercial samples (see disclosure below)
+
+If commercial samples used, list sources and restrictions:
+________________________________________________________________________
+________________________________________________________________________
+
+Additional Notes:
+________________________________________________________________________
+________________________________________________________________________
+
+===============================================================================
+
+HOW TO APPLY THIS LICENSE TO YOUR WORK
+
+1. Include this license file with your music files
+
+2. Add license information to your file metadata:
+   • Comment field: "Licensed under OML-F 1.0"
+   • Copyright field: "© [Year] [Your Name] - Licensed under OML-F"
+
+3. State clearly in your distribution:
+   "This work is licensed under OML-F 1.0 - Free to use, modify, and 
+   distribute with attribution"
+
+4. Provide your contact information so users can reach you with questions
+
+5. If providing stems, include the license with each stem file
+
+6. Consider hosting the work on platforms that support open licensing
+
+===============================================================================
+
+COMPARISON WITH OTHER OML LICENSES
+
+| Feature | OML-F | OML-P | OML-C | OML-S |
+|---------|-------|-------|-------|-------|
+| Cost | FREE | FREE under $1K | Negotiated | Negotiated |
+| Revenue Limit | NONE | $1,000/year | NONE | N/A |
+| Commercial Use | YES | Limited | YES | YES (visual) |
+| Modify | YES | YES | YES | Limited |
+| Redistribute | YES | Limited | NO | NO |
+| Stems/Samples | YES | NO | NO | NO |
+| Attribution | Required | Required | Required | Required |
+| Best For | Open source, maximum sharing | Emerging artists, small projects | Professional commercial use | Film/TV/Advertising |
+
+===============================================================================
+
+EXAMPLES OF OML-F USAGE
+
+Example 1: Educational Sample Pack
+• Creator releases drum samples under OML-F
+• Students download and use in their projects
+• One student creates a sample pack using the drums + their own sounds
+• Student sells the pack, crediting original Creator and including OML-F 
+  license
+• Buyers can use both sets of samples freely
+
+Example 2: Collaborative Beat Project
+• Producer releases beat stems under OML-F
+• Multiple artists download and create different songs
+• Each artist sells their songs commercially
+• All credit the original producer
+• Beat remains available for others to use
+
+Example 3: Remix Contest
+• Artist releases song under OML-F
+• Fans create and sell remixes
+• Original artist gets credit and exposure
+• Community benefits from open access
+• No licensing negotiations needed
+
+Example 4: Open Source Music Library
+• Composers create library of production music under OML-F
+• YouTubers, podcasters, and filmmakers use freely
+• Some create derivative works and sample packs
+• Library grows through community contributions
+• Everyone benefits from shared resources
+
+===============================================================================
+
+FREQUENTLY ASKED QUESTIONS
+
+Q: Can I really sell music made with OML-F works?
+A: Yes! Sell it, stream it, monetize it however you want. Just give credit and 
+include the license.
+
+Q: Do I need to pay the Creator anything?
+A: No. OML-F is completely free with no payments or royalties required.
+
+Q: Can I use OML-F beats in my commercial album?
+A: Absolutely. No restrictions on commercial use.
+
+Q: Can I extract samples from OML-F works and use them separately?
+A: Yes, as long as you attribute the original Creator and include the OML-F 
+license.
+
+Q: What if I want to keep my remix exclusive?
+A: You can keep YOUR contributions exclusive, but the OML-F portions remain 
+open for others to use.
+
+Q: Can I remove the Creator's name?
+A: No. Attribution is required. You must credit the Creator.
+
+Q: What if I make millions using OML-F music?
+A: Good for you! No revenue sharing required. Just keep giving credit.
+
+Q: Can I use OML-F in a film or advertisement?
+A: Yes. OML-F works for all uses including sync.
+
+Q: Is this really as open as it seems?
+A: Yes. It's designed to be maximally permissive. Only requirements are 
+attribution and license inclusion.
+
+Q: What's the difference between OML-F and "royalty-free"?
+A: OML-F is more permissive. Most royalty-free licenses don't allow 
+redistribution of samples or creating derivative sample packs. OML-F does.
+
+Q: Can a Creator revoke OML-F?
+A: No. Once released under OML-F, it stays OML-F. The license is perpetual.
+
+Q: What if the Creator used Splice samples?
+A: They shouldn't release it under OML-F unless they have rights to distribute 
+those samples openly. Ask the Creator about sample sources before extracting 
+elements.
+
+===============================================================================
+
+This license is designed for maximum creative freedom while respecting creators 
+through attribution. It enables open collaboration, remixing, and building upon 
+existing work - the foundation of creative culture.
+
+===============================================================================

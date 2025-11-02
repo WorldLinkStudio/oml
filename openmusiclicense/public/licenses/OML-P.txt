@@ -1,0 +1,242 @@
+===============================================================================
+OPEN MUSIC LICENSE (OML)
+PERSONAL USE LICENSE
+
+Version 1.0 - Effective October 2025
+===============================================================================
+
+OVERVIEW
+
+This license allows you to use, modify, and monetize this musical work for free 
+as long as your total revenue stays under $1,000 USD per year. You must provide 
+attribution. Once you exceed $1,000, you need to upgrade to the Commercial 
+License (OML-C) and negotiate royalty terms with the creator.
+
+===============================================================================
+
+1. DEFINITIONS
+
+"Work" means the musical composition, beat, instrumental, sound recording, 
+audio sample, loop, or other music asset covered by this license.
+
+"Creator" means the person or entity that created the Work.
+
+"You" means the person or entity using the Work under this license.
+
+"Revenue Threshold" means $1,000 USD in total gross revenue per 12-month 
+period from all projects using the Work.
+
+"Gross Revenue" means all income received from projects using the Work, 
+including streaming royalties, sales, advertising revenue, sponsorships, 
+performance fees, licensing fees, crowdfunding, and any other monetary benefit.
+
+===============================================================================
+
+2. WHAT YOU CAN DO
+
+You can:
+
+• Use the Work in your own music, videos, podcasts, or other creative projects
+• Modify the Work and create your own versions
+• Release music commercially using the Work
+• Monetize your projects on streaming platforms, YouTube, social media, etc.
+• Perform the Work live (including paid performances)
+• Distribute your projects that include the Work
+
+All of the above are allowed as long as you stay under the Revenue Threshold 
+and provide proper attribution.
+
+===============================================================================
+
+3. WHAT YOU CANNOT DO
+
+You cannot:
+
+• Remove or alter any copyright notices or attribution information
+• Claim you created the original Work
+• Sell, rent, or sublicense the Work by itself (it must be part of your own 
+  creative project)
+• Redistribute isolated stems, samples, or elements from the Work as standalone 
+  files for others to use
+• Use the Work in illegal content, hate speech, or content promoting violence
+• Exceed the Revenue Threshold without upgrading to OML-C
+
+===============================================================================
+
+4. REVENUE LIMIT
+
+You can earn up to $1,000 USD total gross revenue per year from all projects 
+using the Work.
+
+• The 12-month period starts when you first earn any revenue using the Work
+• If you use the Work in multiple projects, add up revenue from all of them
+• When you reach $1,000, you have 30 days to contact the Creator and obtain a 
+  Commercial License (OML-C)
+• After 30 days, you must stop monetizing projects using the Work until you 
+  obtain OML-C
+
+===============================================================================
+
+5. ATTRIBUTION REQUIREMENTS
+
+You must give credit to the Creator in an accessible location. This can be in:
+
+• Audio file metadata (Producer, Composer, or Comment fields)
+• Video description
+• Track description on streaming platforms
+• Credits section or liner notes
+• Social media post caption
+• Website credits page
+• Any other place where your audience can reasonably find it
+
+Minimum attribution format:
+"[Work Title] by [Creator Name]" or "prod. by [Creator Name]" or "Beat by 
+[Creator Name]"
+
+You should also include a reference to this license somewhere accessible (does 
+not need to be in the title):
+"Licensed under OML-P" or "Licensed under Open Music License"
+
+Examples of proper attribution:
+• Audio metadata: Producer field: "Radio Tom" + Comment field: "Licensed under OML-P"
+• YouTube description: "Beat by Radio Tom (Licensed under OML-P)"
+• Spotify credits: Add "Radio Tom" to Producer credits
+• Instagram caption: "Music by Radio Tom | OML-P"
+
+===============================================================================
+
+6. UNDERLYING SAMPLES AND THIRD-PARTY CONTENT
+
+Important Note About Sample Libraries:
+
+If the Creator used samples from libraries like Splice, Loopcloud, or other 
+sources in creating the Work:
+
+• You receive rights to use the finished Work (the beat, composition, or 
+  recording as delivered)
+• You do NOT receive rights to the underlying samples or elements used to 
+  create the Work
+• You cannot extract individual samples or stems to use separately
+• You cannot redistribute isolated elements from the Work
+
+The Creator represents that they have the necessary rights to license the Work 
+to you as a finished composition, but any underlying samples remain subject to 
+their original licenses.
+
+If you need access to stems or isolated elements, negotiate this separately 
+with the Creator.
+
+===============================================================================
+
+7. YOUR DERIVATIVE WORKS
+
+When you create music using the Work:
+
+• You own your original creative contributions (lyrics, melodies you add, 
+  additional production, etc.)
+• The underlying Work remains the Creator's property
+• You must continue to provide attribution
+• Your derivative work must comply with this license
+• Revenue from your derivative works counts toward the Revenue Threshold
+
+When crediting your work that uses the Work:
+"[Your Song Title] (prod. by Radio Tom)" or "Contains music by Radio Tom"
+
+===============================================================================
+
+8. NO WARRANTY
+
+THE WORK IS PROVIDED "AS IS" WITHOUT ANY WARRANTY. THE CREATOR MAKES NO 
+GUARANTEES ABOUT QUALITY, COMPATIBILITY, OR THAT THE WORK WON'T INFRINGE 
+THIRD-PARTY RIGHTS.
+
+The Creator is not responsible for any problems, damages, or losses that occur 
+from your use of the Work.
+
+===============================================================================
+
+9. TERMINATION
+
+This license automatically ends if you:
+
+• Violate any terms of this license
+• Exceed the Revenue Threshold without obtaining OML-C
+• Fail to provide proper attribution
+
+If the license terminates:
+• Stop using, distributing, and monetizing the Work immediately
+• Remove the Work from projects still under your control
+• Projects already released can remain available for 30 days (wind-down period)
+
+You can cure attribution violations within 15 days by adding proper credits. 
+This cure option is available once per license.
+
+===============================================================================
+
+10. UPGRADING TO COMMERCIAL LICENSE
+
+You need OML-C when:
+
+• Your revenue exceeds $1,000 per year
+• You want to use the Work without revenue limits
+• You need warranties or legal protections beyond this license
+• You want to grant sublicenses to others
+
+To obtain OML-C:
+1. Contact the Creator using the information provided with the Work
+2. Negotiate royalty terms or a flat fee
+3. Execute the Commercial License agreement
+
+Your rights under OML-P continue until OML-C takes effect.
+
+===============================================================================
+
+11. GENERAL TERMS
+
+Entire Agreement: This license is the complete agreement between you and the 
+Creator regarding the Work.
+
+Governing Law: This license is governed by the laws of the Creator's 
+jurisdiction.
+
+Severability: If any provision is invalid, the rest remains in effect.
+
+No Waiver: Creator's failure to enforce any term doesn't waive their right to 
+enforce it later.
+
+Assignment: You cannot transfer this license to someone else. The Creator can 
+assign their rights with notice to you.
+
+Acceptance: By downloading, using, or monetizing the Work, you agree to these 
+terms.
+
+===============================================================================
+
+12. LICENSE NOTICE
+
+When distributing projects using the Work, include a license notice somewhere 
+accessible to your audience:
+
+"This work contains music licensed under the Open Music License (OML-P). 
+Creator: [Name]. For license details, visit [URL if available]."
+
+This notice does not need to appear in titles or prominent locations - just 
+somewhere users can find it if they look (metadata, descriptions, credits, etc.).
+
+===============================================================================
+
+CONTACT INFORMATION
+
+For questions or to obtain a Commercial License (OML-C):
+
+Creator: [Name]
+Email: [Email]
+Website: [Website]
+
+===============================================================================
+
+This license balances creator compensation with open access. It's designed for 
+the modern music industry where creators use sample libraries and beats, and 
+want to support emerging artists while getting paid for commercial success.
+
+===============================================================================

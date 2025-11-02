@@ -1,4 +1,4 @@
-import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import { Card } from '../ui/Card';
 import { Button } from '../ui/Button';
 import type { GeneratedLicense } from '../../types/license';
@@ -16,7 +16,9 @@ export const LicensePreview: React.FC<LicensePreviewProps> = ({
   onDownload,
   onCopy,
 }) => {
+  const navigate = useNavigate();
   const info = licenseInfo[license.type];
+  const needsExecutionAgreement = license.type === 'OML-C' || license.type === 'OML-S';
 
   const handleDownload = () => {
     // Only download the license file, not attribution separately
@@ -28,15 +30,8 @@ export const LicensePreview: React.FC<LicensePreviewProps> = ({
     }
   };
 
-  const handleDownloadExecutionAgreement = () => {
-    if (license.executionAgreement) {
-      downloadTextFile(
-        license.executionAgreement,
-        `LICENSE-EXECUTION-AGREEMENT-${license.type}.txt`
-      );
-    } else {
-      console.error('Execution agreement is empty, cannot download');
-    }
+  const handleOpenAgreementForm = () => {
+    navigate('/execution-agreement');
   };
 
   const handleCopyAttribution = async () => {
@@ -108,41 +103,58 @@ export const LicensePreview: React.FC<LicensePreviewProps> = ({
             <Button variant="primary" onClick={handleDownload}>
               Download Full License
             </Button>
-            {license.executionAgreement && (
-              <Button variant="primary" onClick={handleDownloadExecutionAgreement}>
-                Download Execution Agreement
-              </Button>
-            )}
           </div>
           <p className="download-note">
-            {license.executionAgreement 
-              ? 'Download the full license file and the separate execution agreement. Both should be saved with your music assets.'
-              : 'The downloaded file contains the full license text with your information filled in. Save it with your music assets.'}
+            The downloaded file contains the full license text with your information filled in. Save it with your music assets.
           </p>
         </div>
+
+        {needsExecutionAgreement && (
+          <div className="license-preview-section">
+            <h4>License Execution Agreement Form</h4>
+            <p className="section-description">
+              For {license.type} licenses, you'll need to complete a License Execution Agreement with your licensee to establish payment terms and scope of use. Click the button below to open the interactive form where you can fill it out and print it as a PDF.
+            </p>
+            <div className="license-actions">
+              <Button 
+                variant="primary" 
+                onClick={handleOpenAgreementForm}
+              >
+                📄 Agreement Form
+              </Button>
+            </div>
+            <p className="download-note">
+              The form will open in a new page where you can fill in all the details and print it directly to PDF from your browser.
+            </p>
+          </div>
+        )}
 
         <div className="license-next-steps">
           <h4>Next Steps</h4>
           <ol>
             <li>
-              Download the license file{license.executionAgreement ? ' and execution agreement' : ''} and save {license.executionAgreement ? 'them' : 'it'} with your music assets
+              Download the license file and save it with your music assets
             </li>
             <li>Copy the attribution text and include it in your project's metadata</li>
             <li>
               Add attribution to your project descriptions, credits, and
               promotional materials using the examples above
             </li>
-            {license.executionAgreement && (
-              <li>
-                <strong>Review and sign the execution agreement</strong> with the licensee to
-                finalize payment terms and scope of use
-              </li>
-            )}
-            {!license.executionAgreement && (license.type === 'OML-C' || license.type === 'OML-S') && (
-              <li>
-                For commercial licenses (OML-C, OML-S), contact the creator to
-                finalize payment terms
-              </li>
+            {needsExecutionAgreement && (
+              <>
+                <li>
+                  <strong>Open the Agreement Form</strong> using the button above
+                </li>
+                <li>
+                  <strong>Fill out all required information</strong> on the form page
+                </li>
+                <li>
+                  <strong>Print the completed form</strong> directly to PDF from your browser or sign it digitally
+                </li>
+                <li>
+                  Keep both the license and the signed execution agreement with your project files
+                </li>
+              </>
             )}
           </ol>
         </div>

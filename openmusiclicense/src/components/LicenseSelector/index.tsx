@@ -9,7 +9,6 @@ import { UseCaseSelector } from './UseCaseSelector';
 import { ProjectDetails } from './ProjectDetails';
 import { AttributionForm } from './AttributionForm';
 import { AssetDetails } from './AssetDetails';
-import { ExecutionAgreementForm } from './ExecutionAgreementForm';
 import { LicensePreview } from './LicensePreview';
 import { Button } from '../ui/Button';
 import { Card } from '../ui/Card';
@@ -21,7 +20,6 @@ const STEP_LABELS = [
   'Project Details',
   'Attribution',
   'Asset Details',
-  'License Terms',
   'Your License',
 ];
 
@@ -44,13 +42,8 @@ export const LicenseSelector: React.FC = () => {
       return;
     }
 
-    // Auto-generate license when moving from step 6 (License Terms or Asset Details depending on license type) to final step (step 7)
-    const recommendedLicenseType = recommendLicense(formData);
-    const needsExecutionAgreement = recommendedLicenseType === 'OML-C' || recommendedLicenseType === 'OML-S';
-    
-    // If we need execution agreement and we're on step 6, generate license
-    // If we don't need execution agreement and we're on step 5, generate license
-    const shouldGenerate = (needsExecutionAgreement && currentStep === 6) || (!needsExecutionAgreement && currentStep === 5);
+    // Auto-generate license when moving from step 5 (Asset Details) to final step (step 6)
+    const shouldGenerate = currentStep === 5;
     
     if (shouldGenerate && !generatedLicense) {
       const license = await generate(formData);
@@ -86,9 +79,6 @@ export const LicenseSelector: React.FC = () => {
   };
 
   const renderStep = () => {
-    const recommendedLicenseType = recommendLicense(formData);
-    const needsExecutionAgreement = recommendedLicenseType === 'OML-C' || recommendedLicenseType === 'OML-S';
-    
     switch (currentStep) {
       case 1:
         return (
@@ -155,50 +145,6 @@ export const LicenseSelector: React.FC = () => {
           />
         );
       case 6:
-        // If license needs execution agreement, show the form
-        // Otherwise, skip to license preview
-        if (needsExecutionAgreement) {
-          return (
-            <ExecutionAgreementForm
-              formData={formData.executionAgreement || {}}
-              onChange={(field, value) => {
-                const updatedAgreement = { ...formData.executionAgreement, [field]: value };
-                updateFormData({ executionAgreement: updatedAgreement });
-              }}
-              errors={{}}
-              licenseType={recommendedLicenseType}
-            />
-          );
-        } else {
-          // Skip to license preview (step 7 behavior)
-          if (generatedLicense) {
-            return (
-              <LicensePreview
-                license={generatedLicense}
-                onDownload={handleDownload}
-                onCopy={handleCopy}
-              />
-            );
-          } else {
-            return (
-              <div className="license-selector-step">
-                <Card padding="large">
-                  <div style={{ textAlign: 'center', padding: '2rem' }}>
-                    <p style={{ fontSize: '1.1rem', marginBottom: '1rem' }}>
-                      {isGenerating ? 'Generating your license...' : 'Loading license...'}
-                    </p>
-                    {isGenerating && (
-                      <div style={{ color: 'var(--color-primary)' }}>
-                        Please wait while we prepare your license file.
-                      </div>
-                    )}
-                  </div>
-                </Card>
-              </div>
-            );
-          }
-        }
-      case 7:
         if (generatedLicense) {
           return (
             <LicensePreview
@@ -233,14 +179,6 @@ export const LicenseSelector: React.FC = () => {
   const recommendedLicenseType = formData.userType && formData.useCase 
     ? recommendLicense(formData) 
     : null;
-  
-  const needsExecutionAgreement = recommendedLicenseType === 'OML-C' || recommendedLicenseType === 'OML-S';
-  const effectiveTotalSteps = needsExecutionAgreement ? STEP_LABELS.length : STEP_LABELS.length - 1;
-  
-  // Build step labels based on whether execution agreement is needed
-  const effectiveStepLabels = needsExecutionAgreement 
-    ? STEP_LABELS 
-    : STEP_LABELS.filter((_, index) => index !== 5); // Remove 'License Terms' step
 
   return (
     <section className="license-selector-section" id="license-selector">
@@ -259,8 +197,8 @@ export const LicenseSelector: React.FC = () => {
 
         <StepIndicator
           currentStep={currentStep}
-          totalSteps={effectiveTotalSteps}
-          stepLabels={effectiveStepLabels}
+          totalSteps={STEP_LABELS.length}
+          stepLabels={STEP_LABELS}
         />
 
         <div className="license-selector-content">

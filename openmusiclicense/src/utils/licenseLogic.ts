@@ -5,7 +5,7 @@ import type { LicenseType, LicenseFormData } from '../types/license';
  */
 export function recommendLicense(formData: LicenseFormData): LicenseType {
   // If user preselected a license type from the comparison cards, use that
-  if (formData.preselectedLicenseType && formData.preselectedLicenseType !== '') {
+  if (formData.preselectedLicenseType !== '' && formData.preselectedLicenseType) {
     return formData.preselectedLicenseType;
   }
 

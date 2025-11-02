@@ -1,4 +1,5 @@
-import React, { Component, ErrorInfo, ReactNode } from 'react';
+import { Component } from 'react';
+import type { ErrorInfo, ReactNode } from 'react';
 import { Card } from './ui/Card';
 import { Button } from './ui/Button';
 
@@ -63,7 +64,7 @@ export class ErrorBoundary extends Component<Props, State> {
                 We encountered an unexpected error. This has been logged and we'll look into it.
               </p>
               
-              {process.env.NODE_ENV === 'development' && this.state.error && (
+              {import.meta.env.DEV && this.state.error && (
                 <details style={{ 
                   textAlign: 'left', 
                   marginBottom: '1.5rem',

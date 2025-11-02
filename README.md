@@ -120,7 +120,11 @@ This license framework itself is released under CC0 (public domain) - use and ad
 
 ## Credits
 
-Developed through collaborative research incorporating principles from Creative Commons, OSI-approved licenses, and music industry best practices.
+Developed through collaborative research incorporating principles from Creative Commons, OSI-approved licenses, and music industry best practices. 
+
+## Sponsors
+
+- [World Link Studio](https://worldlinkstudio.com)
 
 ---
 

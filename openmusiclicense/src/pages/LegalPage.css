@@ -1,0 +1,125 @@
+.legal-page {
+  min-height: 100vh;
+  padding: 2rem 1rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.legal-container {
+  max-width: 900px;
+  margin: 0 auto;
+  background: white;
+  border-radius: 12px;
+  padding: 3rem;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+}
+
+.legal-container .back-button {
+  background: transparent;
+  border: 1px solid #667eea;
+  color: #667eea;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  margin-bottom: 2rem;
+  display: inline-block;
+}
+
+.legal-container .back-button:hover {
+  background: #667eea;
+  color: white;
+  transform: translateX(-4px);
+}
+
+.legal-container h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.last-updated {
+  color: #666;
+  font-style: italic;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid #eee;
+}
+
+.legal-container section {
+  margin-bottom: 2.5rem;
+}
+
+.legal-container h2 {
+  font-size: 1.75rem;
+  color: #667eea;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.legal-container h3 {
+  font-size: 1.25rem;
+  color: #764ba2;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.legal-container p {
+  line-height: 1.8;
+  color: #444;
+  margin-bottom: 1rem;
+}
+
+.legal-container ul {
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+}
+
+.legal-container li {
+  line-height: 1.8;
+  color: #444;
+  margin-bottom: 0.5rem;
+}
+
+.legal-container a {
+  color: #667eea;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.legal-container a:hover {
+  color: #764ba2;
+  text-decoration: underline;
+}
+
+.legal-footer {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 2px solid #eee;
+  text-align: center;
+  font-style: italic;
+  color: #666;
+}
+
+@media (max-width: 768px) {
+  .legal-container {
+    padding: 2rem 1.5rem;
+  }
+
+  .legal-container h1 {
+    font-size: 2rem;
+  }
+
+  .legal-container h2 {
+    font-size: 1.5rem;
+  }
+
+  .legal-container h3 {
+    font-size: 1.1rem;
+  }
+
+  .legal-container ul {
+    margin-left: 1.5rem;
+  }
+}
+

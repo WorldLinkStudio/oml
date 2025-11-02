@@ -1,15 +1,34 @@
 import React, { useState } from 'react';
+import { Link, useLocation } from 'react-router-dom';
 
 export const Header: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const location = useLocation();
+  const isHomePage = location.pathname === '/';
+
+  const handleScrollToSection = (sectionId: string) => {
+    setIsMenuOpen(false);
+    
+    if (!isHomePage) {
+      // Navigate to home page with hash
+      window.location.href = `/#${sectionId}`;
+      return;
+    }
+    
+    // Scroll to section on current page
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
 
   return (
     <header className="header" role="banner">
       <div className="header-container">
         <div className="header-logo">
-          <a href="/" className="logo-link">
+          <Link to="/" className="logo-link">
             <span className="logo-text">Open Music License</span>
-          </a>
+          </Link>
         </div>
 
         <nav className="header-nav" aria-label="Main navigation">
@@ -24,27 +43,44 @@ export const Header: React.FC = () => {
 
           <ul className={`nav-list ${isMenuOpen ? 'nav-list-open' : ''}`}>
             <li>
-              <a href="#about" onClick={() => setIsMenuOpen(false)}>
-                About
-              </a>
+              <button 
+                onClick={() => handleScrollToSection('how-it-works')}
+                style={{ background: 'none', border: 'none', color: 'inherit', cursor: 'pointer', padding: 0, font: 'inherit' }}
+              >
+                How It Works
+              </button>
             </li>
             <li>
-              <a href="#licenses" onClick={() => setIsMenuOpen(false)}>
+              <button 
+                onClick={() => handleScrollToSection('licenses')}
+                style={{ background: 'none', border: 'none', color: 'inherit', cursor: 'pointer', padding: 0, font: 'inherit' }}
+              >
                 Licenses
-              </a>
+              </button>
             </li>
             <li>
-              <a href="#faq" onClick={() => setIsMenuOpen(false)}>
+              <button 
+                onClick={() => handleScrollToSection('faq')}
+                style={{ background: 'none', border: 'none', color: 'inherit', cursor: 'pointer', padding: 0, font: 'inherit' }}
+              >
                 FAQ
-              </a>
+              </button>
             </li>
             <li>
-              <a href="#license-selector" onClick={() => setIsMenuOpen(false)}>
+              <button 
+                onClick={() => handleScrollToSection('license-selector')}
+                style={{ background: 'none', border: 'none', color: 'inherit', cursor: 'pointer', padding: 0, font: 'inherit' }}
+              >
                 Get Started
-              </a>
+              </button>
             </li>
             <li>
-              <a href="#documentation" onClick={() => setIsMenuOpen(false)}>
+              <a 
+                href="https://github.com/WorldLinkStudio/oml" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                onClick={() => setIsMenuOpen(false)}
+              >
                 Documentation
               </a>
             </li>

@@ -1,7 +1,10 @@
-import React from "react";
+import { type FC } from "react";
 import { Link } from "react-router-dom";
+import { useBotDetectionContext } from "../context/BotDetectionContext";
 
-export const Footer: React.FC = () => {
+export const Footer: FC = () => {
+  const { isBot, botKind, isLoading } = useBotDetectionContext();
+
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
     if (element) {
@@ -10,7 +13,7 @@ export const Footer: React.FC = () => {
   };
 
   return (
-    <footer className="footer" role="contentinfo">
+    <footer className="footer">
       <div className="footer-container">
         <div className="footer-section">
           <h3>Open Music License</h3>
@@ -28,6 +31,11 @@ export const Footer: React.FC = () => {
               World Link Studio
             </a>
           </p>
+          {!isLoading && (
+            <p style={{ marginTop: "0.5rem", fontSize: "0.75rem", color: "#666" }}>
+              {isBot ? `🤖 Bot detected: ${botKind || 'unknown'}` : '👤 Human visitor'}
+            </p>
+          )}
         </div>
 
         <div className="footer-section">
@@ -44,6 +52,7 @@ export const Footer: React.FC = () => {
             </li>
             <li>
               <button
+                type="button"
                 onClick={() => scrollToSection("faq")}
                 style={{
                   background: "none",

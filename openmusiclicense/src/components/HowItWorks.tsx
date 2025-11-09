@@ -1,4 +1,4 @@
-import React from "react";
+import { type FC } from "react";
 
 const steps = [
   {
@@ -31,7 +31,7 @@ const steps = [
   },
 ];
 
-export const HowItWorks: React.FC = () => {
+export const HowItWorks: FC = () => {
   return (
     <section className="how-it-works-section" id="how-it-works">
       <div className="section-container">

@@ -4,9 +4,16 @@ import { jsPDF } from "jspdf";
 import { Button } from "../components/ui/Button";
 import "./ExecutionAgreementPage.css";
 
+interface PaymentScheduleItem {
+  paymentNumber: number;
+  dueDate: string;
+  amount: number;
+}
+
 export const ExecutionAgreementPage = () => {
   const navigate = useNavigate();
   const [formData, setFormData] = useState({
+    licenseType: "",
     creator: "",
     licensee: "",
     workTitle: "",
@@ -22,6 +29,11 @@ export const ExecutionAgreementPage = () => {
     flatFeeTermOther: "",
     hybridUpfront: "",
     hybridRoyalty: "",
+    paymentPlanEnabled: false,
+    paymentPlanTotalAmount: "",
+    paymentPlanPerPayment: "",
+    paymentPlanFrequency: "",
+    paymentPlanStartDate: "",
     paymentMethod: "",
     paymentMethodDetails: "",
     paymentName: "",
@@ -48,9 +60,91 @@ export const ExecutionAgreementPage = () => {
       HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement
     >
   ) => {
-    const { name, value } = e.target;
-    setFormData((prev) => ({ ...prev, [name]: value }));
+    const { name, value, type } = e.target;
+    const checked = (e.target as HTMLInputElement).checked;
+    setFormData((prev) => ({ 
+      ...prev, 
+      [name]: type === 'checkbox' ? checked : value 
+    }));
   };
+
+  // Calculate payment schedule
+  const calculatePaymentSchedule = (): PaymentScheduleItem[] => {
+    if (!formData.paymentPlanEnabled || 
+        !formData.paymentPlanTotalAmount || 
+        !formData.paymentPlanPerPayment || 
+        !formData.paymentPlanFrequency ||
+        !formData.paymentPlanStartDate) {
+      return [];
+    }
+
+    const totalAmount = parseFloat(formData.paymentPlanTotalAmount);
+    const perPayment = parseFloat(formData.paymentPlanPerPayment);
+    
+    if (isNaN(totalAmount) || isNaN(perPayment) || totalAmount <= 0 || perPayment <= 0) {
+      return [];
+    }
+
+    const numPayments = Math.ceil(totalAmount / perPayment);
+    const schedule: PaymentScheduleItem[] = [];
+    const startDate = new Date(formData.paymentPlanStartDate);
+
+    // Helper function to add time based on frequency
+    const addTimeToDate = (date: Date, paymentNum: number): Date => {
+      const newDate = new Date(date);
+      switch (formData.paymentPlanFrequency) {
+        case "Weekly":
+          newDate.setDate(newDate.getDate() + (paymentNum * 7));
+          break;
+        case "Bi-Weekly":
+          newDate.setDate(newDate.getDate() + (paymentNum * 14));
+          break;
+        case "Monthly":
+          newDate.setMonth(newDate.getMonth() + paymentNum);
+          break;
+        case "Quarterly":
+          newDate.setMonth(newDate.getMonth() + (paymentNum * 3));
+          break;
+        case "Semi-Annually":
+          newDate.setMonth(newDate.getMonth() + (paymentNum * 6));
+          break;
+        case "Annually":
+          newDate.setFullYear(newDate.getFullYear() + paymentNum);
+          break;
+        case "One-Time":
+          // One-time payment, no date addition
+          break;
+      }
+      return newDate;
+    };
+
+    let remainingAmount = totalAmount;
+    
+    for (let i = 0; i < numPayments; i++) {
+      const isLastPayment = i === numPayments - 1;
+      const paymentAmount = isLastPayment 
+        ? Math.round(remainingAmount * 100) / 100  // Round to nearest cent
+        : Math.round(perPayment * 100) / 100;
+      
+      const dueDate = addTimeToDate(startDate, i);
+      
+      schedule.push({
+        paymentNumber: i + 1,
+        dueDate: dueDate.toLocaleDateString('en-US', { 
+          year: 'numeric', 
+          month: 'long', 
+          day: 'numeric' 
+        }),
+        amount: paymentAmount,
+      });
+      
+      remainingAmount -= paymentAmount;
+    }
+
+    return schedule;
+  };
+
+  const paymentSchedule = calculatePaymentSchedule();
 
   const generatePDF = () => {
     const doc = new jsPDF();
@@ -103,7 +197,18 @@ export const ExecutionAgreementPage = () => {
     doc.text("LICENSE EXECUTION AGREEMENT", pageWidth / 2, yPos, {
       align: "center",
     });
-    yPos += 15;
+    yPos += 10;
+    
+    // License Type
+    if (formData.licenseType) {
+      doc.setFontSize(12);
+      doc.text(`License Type: ${formData.licenseType}`, pageWidth / 2, yPos, {
+        align: "center",
+      });
+      yPos += 10;
+    } else {
+      yPos += 5;
+    }
 
     // Parties
     addText("This agreement is executed between:", 11, true);
@@ -180,6 +285,52 @@ export const ExecutionAgreementPage = () => {
       addText("  Reporting: Quarterly");
     } else {
       addText("[ ] OPTION C: Hybrid");
+    }
+
+    // Payment Plan
+    if (formData.paymentPlanEnabled && paymentSchedule.length > 0) {
+      addSection("PAYMENT PLAN");
+      addField(
+        "Total Amount",
+        formData.paymentPlanTotalAmount ? `$${formData.paymentPlanTotalAmount} USD` : ""
+      );
+      addField(
+        "Payment per Period",
+        formData.paymentPlanPerPayment ? `$${formData.paymentPlanPerPayment} USD` : ""
+      );
+      addField("Payment Frequency", formData.paymentPlanFrequency);
+      addField("Start Date", formData.paymentPlanStartDate);
+      yPos += 3;
+
+      // Payment Schedule Table
+      addText("Payment Schedule:", 11, true);
+      yPos += 2;
+
+      // Table header
+      doc.setFont("helvetica", "bold");
+      doc.setFontSize(10);
+      const colX1 = margin + 10;
+      const colX2 = margin + 50;
+      const colX3 = margin + 130;
+      doc.text("Payment #", colX1, yPos);
+      doc.text("Due Date", colX2, yPos);
+      doc.text("Amount", colX3, yPos);
+      yPos += 5;
+
+      // Table rows
+      doc.setFont("helvetica", "normal");
+      paymentSchedule.forEach((payment) => {
+        if (yPos > pageHeight - margin) {
+          doc.addPage();
+          yPos = margin;
+        }
+        doc.text(payment.paymentNumber.toString(), colX1, yPos);
+        doc.text(payment.dueDate, colX2, yPos);
+        doc.text(`$${payment.amount.toFixed(2)}`, colX3, yPos);
+        yPos += 6;
+      });
+
+      yPos += 3;
     }
 
     // Payment Details
@@ -321,6 +472,29 @@ export const ExecutionAgreementPage = () => {
         <div className="form-header">
           <h1>LICENSE EXECUTION AGREEMENT</h1>
         </div>
+
+        <div className="form-section">
+          <h2>LICENSE TYPE</h2>
+          <div className="form-field">
+            <label>
+              <strong>Select Open Music License Type:</strong>
+            </label>
+            <select
+              name="licenseType"
+              value={formData.licenseType}
+              onChange={handleChange}
+              className="text-input"
+            >
+              <option value="">-- Select License Type --</option>
+              <option value="OML-P">OML-P (Personal - Free for personal projects under $1,000/year)</option>
+              <option value="OML-C">OML-C (Commercial - Paid licensing for professional use)</option>
+              <option value="OML-S">OML-S (Sync - Special licensing for film, TV, video)</option>
+              <option value="OML-F">OML-F (Full Rights - Complete ownership transfer)</option>
+            </select>
+          </div>
+        </div>
+
+        <div className="form-separator" />
 
         <div className="form-section">
           <p className="section-intro">
@@ -603,6 +777,186 @@ export const ExecutionAgreementPage = () => {
               )}
             </div>
           </div>
+        </div>
+
+        <div className="form-separator" />
+
+        <div className="form-section">
+          <h2>PAYMENT PLAN (Optional)</h2>
+          
+          <div className="form-field">
+            <label style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+              <input
+                type="checkbox"
+                name="paymentPlanEnabled"
+                checked={formData.paymentPlanEnabled}
+                onChange={handleChange}
+                style={{ width: 'auto', accentColor: '#000' }}
+              />
+              <strong>Enable Payment Plan</strong>
+            </label>
+          </div>
+
+          {formData.paymentPlanEnabled && (
+            <div className="option-details">
+              <div className="form-field inline-field">
+                <label style={{ color: '#000', fontWeight: 'bold' }}>Total Amount:</label>
+                <span style={{ color: '#000' }}>$</span>
+                <input
+                  type="number"
+                  name="paymentPlanTotalAmount"
+                  value={formData.paymentPlanTotalAmount}
+                  onChange={handleChange}
+                  className="text-input short"
+                  placeholder="e.g., 5000"
+                  step="0.01"
+                  min="0"
+                  style={{ color: '#000' }}
+                />
+                <span style={{ color: '#000' }}>USD</span>
+              </div>
+              <div className="form-field inline-field">
+                <label style={{ color: '#000', fontWeight: 'bold' }}>Payment per Period:</label>
+                <span style={{ color: '#000' }}>$</span>
+                <input
+                  type="number"
+                  name="paymentPlanPerPayment"
+                  value={formData.paymentPlanPerPayment}
+                  onChange={handleChange}
+                  className="text-input short"
+                  placeholder="e.g., 1000"
+                  step="0.01"
+                  min="0"
+                  style={{ color: '#000' }}
+                />
+                <span style={{ color: '#000' }}>USD</span>
+              </div>
+              <div className="form-field">
+                <label style={{ color: '#000', fontWeight: 'bold' }}>Payment Frequency:</label>
+                <select
+                  name="paymentPlanFrequency"
+                  value={formData.paymentPlanFrequency}
+                  onChange={handleChange}
+                  className="text-input"
+                  style={{ color: '#000' }}
+                >
+                  <option value="">-- Select Frequency --</option>
+                  <option value="Weekly">Weekly</option>
+                  <option value="Bi-Weekly">Bi-Weekly</option>
+                  <option value="Monthly">Monthly</option>
+                  <option value="Quarterly">Quarterly</option>
+                  <option value="Semi-Annually">Semi-Annually</option>
+                  <option value="Annually">Annually</option>
+                  <option value="One-Time">One-Time Payment</option>
+                </select>
+              </div>
+              <div className="form-field">
+                <label style={{ color: '#000', fontWeight: 'bold' }}>Start Date:</label>
+                <input
+                  type="date"
+                  name="paymentPlanStartDate"
+                  value={formData.paymentPlanStartDate}
+                  onChange={handleChange}
+                  className="text-input"
+                  style={{ color: '#000' }}
+                />
+              </div>
+
+              {paymentSchedule.length > 0 && (
+                <div className="form-field" style={{ marginTop: '1.5rem' }}>
+                  <h3 style={{ marginBottom: '1rem', fontSize: '1.1rem', fontWeight: 'bold', color: '#000' }}>
+                    Payment Schedule
+                  </h3>
+                  <table style={{ 
+                    width: '100%', 
+                    borderCollapse: 'collapse',
+                    border: '1px solid #ddd'
+                  }}>
+                    <thead>
+                      <tr style={{ backgroundColor: '#f5f5f5' }}>
+                        <th style={{ 
+                          padding: '0.75rem', 
+                          textAlign: 'left',
+                          borderBottom: '2px solid #ddd',
+                          fontWeight: 'bold',
+                          color: '#000'
+                        }}>
+                          Payment #
+                        </th>
+                        <th style={{ 
+                          padding: '0.75rem', 
+                          textAlign: 'left',
+                          borderBottom: '2px solid #ddd',
+                          fontWeight: 'bold',
+                          color: '#000'
+                        }}>
+                          Due Date
+                        </th>
+                        <th style={{ 
+                          padding: '0.75rem', 
+                          textAlign: 'right',
+                          borderBottom: '2px solid #ddd',
+                          fontWeight: 'bold',
+                          color: '#000'
+                        }}>
+                          Amount
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {paymentSchedule.map((payment, index) => (
+                        <tr key={index} style={{ 
+                          backgroundColor: index % 2 === 0 ? '#fff' : '#f9f9f9'
+                        }}>
+                          <td style={{ 
+                            padding: '0.75rem', 
+                            borderBottom: '1px solid #ddd',
+                            color: '#000'
+                          }}>
+                            {payment.paymentNumber}
+                          </td>
+                          <td style={{ 
+                            padding: '0.75rem', 
+                            borderBottom: '1px solid #ddd',
+                            color: '#000'
+                          }}>
+                            {payment.dueDate}
+                          </td>
+                          <td style={{ 
+                            padding: '0.75rem', 
+                            textAlign: 'right',
+                            borderBottom: '1px solid #ddd',
+                            fontWeight: '500',
+                            color: '#000'
+                          }}>
+                            ${payment.amount.toFixed(2)}
+                          </td>
+                        </tr>
+                      ))}
+                      <tr style={{ backgroundColor: '#f0f0f0', fontWeight: 'bold' }}>
+                        <td colSpan={2} style={{ 
+                          padding: '0.75rem',
+                          textAlign: 'right',
+                          borderTop: '2px solid #ddd',
+                          color: '#000'
+                        }}>
+                          Total:
+                        </td>
+                        <td style={{ 
+                          padding: '0.75rem', 
+                          textAlign: 'right',
+                          borderTop: '2px solid #ddd',
+                          color: '#000'
+                        }}>
+                          ${paymentSchedule.reduce((sum, p) => sum + p.amount, 0).toFixed(2)}
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              )}
+            </div>
+          )}
         </div>
 
         <div className="form-separator" />

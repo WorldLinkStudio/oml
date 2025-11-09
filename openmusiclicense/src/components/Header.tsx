@@ -75,6 +75,14 @@ export const Header: React.FC = () => {
               </button>
             </li>
             <li>
+              <Link 
+                to="/execution-agreement"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                Agreement Form
+              </Link>
+            </li>
+            <li>
               <a 
                 href="https://github.com/WorldLinkStudio/oml" 
                 target="_blank" 

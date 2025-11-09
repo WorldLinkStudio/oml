@@ -104,11 +104,13 @@ export const LicenseSelector: React.FC = () => {
               projectName: formData.projectName,
               releaseDate: formData.releaseDate,
               revenueRange: formData.revenueRange,
+              preselectedLicenseType: formData.preselectedLicenseType || '',
             }}
             onChange={handleFieldChange}
             errors={{
               projectName: getFieldError('projectName') || '',
               revenueRange: getFieldError('revenueRange') || '',
+              preselectedLicenseType: getFieldError('preselectedLicenseType') || '',
             }}
           />
         );

@@ -91,6 +91,11 @@ export const Footer: React.FC = () => {
           <h4>Legal</h4>
           <ul className="footer-links">
             <li>
+              <Link to="/execution-agreement">
+                License Execution Agreement Form
+              </Link>
+            </li>
+            <li>
               <Link to="/terms">Terms of Use</Link>
             </li>
             <li>

@@ -1,3 +1,10 @@
+/* Ensure all inputs and form elements have visible black text for accessibility */
+input,
+select,
+textarea {
+  color: #000 !important;
+}
+
 .execution-agreement-page {
   min-height: 100vh;
   background: var(--color-background, #f8f9fa);
@@ -131,6 +138,7 @@
   background: transparent;
   min-width: 200px;
   flex: 1;
+  color: #000;
 }
 
 .text-input:focus {

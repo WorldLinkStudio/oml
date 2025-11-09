@@ -2,13 +2,14 @@ import React from 'react';
 import { Input } from '../ui/Input';
 import { Select } from '../ui/Select';
 import { Card } from '../ui/Card';
-import { revenueRanges } from '../../data/licenseData';
+import { revenueRanges, licenseInfo } from '../../data/licenseData';
 
 interface ProjectDetailsProps {
   formData: {
     projectName: string;
     releaseDate: string;
     revenueRange: string;
+    preselectedLicenseType: string;
   };
   onChange: (field: string, value: string | string[]) => void;
   errors: Record<string, string>;
@@ -23,6 +24,14 @@ export const ProjectDetails: React.FC<ProjectDetailsProps> = ({
     value: range.value,
     label: range.label,
   }));
+
+  const licenseOptions = [
+    { value: '', label: 'Auto-select based on my answers' },
+    ...Object.entries(licenseInfo).map(([key, info]) => ({
+      value: key,
+      label: `${info.name} - ${info.description}`,
+    })),
+  ];
 
   return (
     <div className="license-selector-step">
@@ -61,6 +70,16 @@ export const ProjectDetails: React.FC<ProjectDetailsProps> = ({
           placeholder="Select revenue range..."
           required
           helperText="This helps determine which license type is appropriate"
+        />
+
+        <Select
+          label="Specific License Type (Optional)"
+          name="preselectedLicenseType"
+          options={licenseOptions}
+          value={formData.preselectedLicenseType}
+          onChange={(e) => onChange('preselectedLicenseType', e.target.value)}
+          error={errors.preselectedLicenseType}
+          helperText="If you know which license you need, you can select it here. Otherwise, we'll recommend one based on your answers."
         />
       </Card>
     </div>
